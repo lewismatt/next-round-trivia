@@ -152,6 +152,11 @@ question came from.
 - No fact repeated from `DO-NOT-DUPLICATE.md`, and no near-duplicate
   within your own set: the same fact asked twice (e.g. two "capital
   of X" in one category) counts as a duplicate — vary it or move on.
+  Likewise, avoid repeating the same question template across a slice
+  (e.g. multiple "Which strait separates X from Y?" questions).
+- Prompts contain no unintended regional/linguistic giveaways,
+  superlatives are properly qualified, and all 4 choices match in
+  article usage and grammatical form.
 - Difficulty honestly placed: a difficulty-3 question a strong player
   answers instantly is a difficulty 1 wearing a costume.
 

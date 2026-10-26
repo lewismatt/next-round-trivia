@@ -19,10 +19,24 @@ That is a **question-bank contribution**. Do exactly this, in order:
 3. Write your set as **one new file** in `content/contributions/`,
    named `<your-tag>-<count>.json`, in the bank shape described in the
    brief (format `next-round.trivia/2`). Your tag is part of every
-   question id: `<category-code>-<slug>-<your-tag>`.
-4. Run the validator and make it pass before you report back:
+   question id: `<category-code>-<slug>-<your-tag>`. (If the prompt
+   still carries a placeholder like `YOURTAG`, ask the user for the
+   lowercase contributor tag before writing the file.)
+4. Self-review every question for accuracy and clear wording before
+   considering the set done:
+   - Verify `choices[correctChoice]` matches the exact fact proven by
+     `explanation`, and check that `explanation` contains no imprecise
+     side claims.
+   - Strip giveaway hints from prompts (e.g. regional cues that make
+     one choice's language/name obvious) and qualify superlatives
+     where needed (e.g. "terrestrial", "by land area", "hot desert").
+   - Check that all 4 choices match in grammatical form (including
+     article usage) and that your slice varies question patterns
+     rather than repeating the same template (e.g. multiple "Which
+     strait separates X from Y?" prompts).
+5. Run the validator and make it pass before you report back:
    `python3 tools/validate-bank.py content/contributions/<your-tag>-<count>.json content/bank.json`
-5. Report: the file path, the question count, your per-category and
+6. Report: the file path, the question count, your per-category and
    per-difficulty counts, and the validator's RESULT line.
 
 **Never edit `content/bank.json` directly.** The pool changes only
