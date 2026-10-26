@@ -355,6 +355,146 @@
       "difficulty": 3
     },
     {
+      "id": "geography-canada-capital-city-grok",
+      "prompt": "What is the capital city of Canada?",
+      "choices": [
+        "Ottawa",
+        "Toronto",
+        "Montreal",
+        "Vancouver"
+      ],
+      "correctChoice": 0,
+      "explanation": "Ottawa was chosen as capital in 1857 and has been the capital of Canada since Confederation in 1867. Toronto is the largest city, but it is not the capital.",
+      "category": "geography",
+      "difficulty": 1
+    },
+    {
+      "id": "geography-great-wall-country-grok",
+      "prompt": "The Great Wall is a historic fortification in which country?",
+      "choices": [
+        "Mongolia",
+        "China",
+        "Japan",
+        "Vietnam"
+      ],
+      "correctChoice": 1,
+      "explanation": "The Great Wall was built and rebuilt by successive Chinese states, especially the Ming, and stands in China.",
+      "category": "geography",
+      "difficulty": 1
+    },
+    {
+      "id": "geography-venice-adriatic-lagoon-grok",
+      "prompt": "Venice is built on islands in a lagoon of which sea?",
+      "choices": [
+        "The Tyrrhenian Sea",
+        "The Aegean Sea",
+        "The Adriatic Sea",
+        "The Ionian Sea"
+      ],
+      "correctChoice": 2,
+      "explanation": "Venice stands in the Venetian Lagoon, a bay of the Adriatic Sea. The Tyrrhenian Sea lies west of Italy.",
+      "category": "geography",
+      "difficulty": 1
+    },
+    {
+      "id": "geography-suez-links-red-sea-grok",
+      "prompt": "The Suez Canal connects the Mediterranean Sea with which sea?",
+      "choices": [
+        "The Black Sea",
+        "The Caspian Sea",
+        "The Arabian Sea",
+        "The Red Sea"
+      ],
+      "correctChoice": 3,
+      "explanation": "The Suez Canal runs from the Mediterranean to the Gulf of Suez, an arm of the Red Sea. It does not open directly onto the Arabian Sea.",
+      "category": "geography",
+      "difficulty": 1
+    },
+    {
+      "id": "geography-brasilia-replaced-rio-grok",
+      "prompt": "Brasília replaced which city as Brazil's capital in 1960?",
+      "choices": [
+        "Rio de Janeiro",
+        "São Paulo",
+        "Salvador",
+        "Recife"
+      ],
+      "correctChoice": 0,
+      "explanation": "Rio de Janeiro was Brazil's capital from 1763 until 21 April 1960, when the capital moved to Brasília. Salvador had been the capital before 1763.",
+      "category": "geography",
+      "difficulty": 2
+    },
+    {
+      "id": "geography-titicaca-peru-bolivia-grok",
+      "prompt": "Lake Titicaca lies on the border between Peru and which other country?",
+      "choices": [
+        "Chile",
+        "Bolivia",
+        "Ecuador",
+        "Colombia"
+      ],
+      "correctChoice": 1,
+      "explanation": "Lake Titicaca straddles the Andes border of Peru and Bolivia. Chile, Ecuador, and Colombia do not touch the lake.",
+      "category": "geography",
+      "difficulty": 2
+    },
+    {
+      "id": "geography-timbuktu-in-mali-grok",
+      "prompt": "The historic city of Timbuktu is in which modern country?",
+      "choices": [
+        "Niger",
+        "Chad",
+        "Mali",
+        "Sudan"
+      ],
+      "correctChoice": 2,
+      "explanation": "Timbuktu is in northern Mali, near the Niger River. It was a major trading and scholarly city of the Mali and Songhai empires.",
+      "category": "geography",
+      "difficulty": 2
+    },
+    {
+      "id": "geography-agulhas-southern-cape-grok",
+      "prompt": "Which cape is the southernmost point of the African mainland?",
+      "choices": [
+        "Cape of Good Hope",
+        "Cape Guardafui",
+        "Cape Blanc",
+        "Cape Agulhas"
+      ],
+      "correctChoice": 3,
+      "explanation": "Cape Agulhas, in South Africa, is the southernmost point of the African mainland. The Cape of Good Hope lies farther northwest.",
+      "category": "geography",
+      "difficulty": 2
+    },
+    {
+      "id": "geography-okavango-delta-botswana-grok",
+      "prompt": "The Okavango River ends in an inland delta in which country?",
+      "choices": [
+        "Botswana",
+        "Namibia",
+        "Angola",
+        "Zambia"
+      ],
+      "correctChoice": 0,
+      "explanation": "The Okavango rises in Angola and ends in an inland delta in Botswana. It touches Namibia on the way, but it does not end there or in Zambia.",
+      "category": "geography",
+      "difficulty": 3
+    },
+    {
+      "id": "geography-victoria-nile-jinja-grok",
+      "prompt": "At Jinja, Uganda, the Victoria Nile leaves which lake?",
+      "choices": [
+        "Lake Tanganyika",
+        "Lake Victoria",
+        "Lake Malawi",
+        "Lake Albert"
+      ],
+      "correctChoice": 1,
+      "explanation": "At Jinja the Victoria Nile, headstream of the White Nile, flows out of Lake Victoria. Lake Albert lies farther downstream on the same system.",
+      "category": "geography",
+      "difficulty": 3
+    },
+    {
       "id": "history-first-us-president-larry",
       "prompt": "Who was the first President of the United States?",
       "choices": [
@@ -421,6 +561,146 @@
       ],
       "correctChoice": 2,
       "explanation": "Spain and Portugal agreed on a meridian in the Atlantic: lands to the east went to Portugal, lands to the west to Spain.",
+      "category": "history",
+      "difficulty": 3
+    },
+    {
+      "id": "history-columbus-americas-year-grok",
+      "prompt": "In which year did Christopher Columbus's first voyage reach the Americas?",
+      "choices": [
+        "1492",
+        "1488",
+        "1502",
+        "1519"
+      ],
+      "correctChoice": 0,
+      "explanation": "Columbus's first voyage reached the Bahamas on 12 October 1492. His fourth voyage began in 1502; 1519 was the start of Magellan's expedition.",
+      "category": "history",
+      "difficulty": 1
+    },
+    {
+      "id": "history-augustus-first-emperor-grok",
+      "prompt": "Who became the first Roman emperor in 27 BCE?",
+      "choices": [
+        "Julius Caesar",
+        "Augustus",
+        "Nero",
+        "Constantine"
+      ],
+      "correctChoice": 1,
+      "explanation": "The Senate granted Octavian the name Augustus in 27 BCE, the date conventionally used for the start of the Roman Empire. Julius Caesar was dictator, not emperor.",
+      "category": "history",
+      "difficulty": 1
+    },
+    {
+      "id": "history-machu-picchu-inca-grok",
+      "prompt": "Machu Picchu was built by which civilization?",
+      "choices": [
+        "The Maya",
+        "The Aztec",
+        "The Inca",
+        "The Olmec"
+      ],
+      "correctChoice": 2,
+      "explanation": "Machu Picchu, in the Peruvian Andes, was built in the 15th century by the Inca. The Maya, Aztec, and Olmec civilizations were centered in Mesoamerica.",
+      "category": "history",
+      "difficulty": 1
+    },
+    {
+      "id": "history-bastille-in-paris-grok",
+      "prompt": "The Bastille, stormed at the start of the French Revolution, stood in which city?",
+      "choices": [
+        "Lyon",
+        "Marseille",
+        "Versailles",
+        "Paris"
+      ],
+      "correctChoice": 3,
+      "explanation": "The Bastille was a fortress-prison in Paris, stormed on 14 July 1789. Versailles, west of the city, was the royal palace, not the site of the Bastille.",
+      "category": "history",
+      "difficulty": 1
+    },
+    {
+      "id": "history-jefferson-declaration-draft-grok",
+      "prompt": "Who was the principal author of the United States Declaration of Independence?",
+      "choices": [
+        "Thomas Jefferson",
+        "Benjamin Franklin",
+        "John Adams",
+        "Alexander Hamilton"
+      ],
+      "correctChoice": 0,
+      "explanation": "Thomas Jefferson drafted the Declaration of Independence in 1776. John Adams and Benjamin Franklin served on the drafting committee, but Hamilton was not a member of it.",
+      "category": "history",
+      "difficulty": 2
+    },
+    {
+      "id": "history-hannibal-punic-crossing-grok",
+      "prompt": "Which general crossed the Alps with war elephants to invade Italy in the Second Punic War?",
+      "choices": [
+        "Scipio Africanus",
+        "Hannibal",
+        "Hamilcar Barca",
+        "Pyrrhus"
+      ],
+      "correctChoice": 1,
+      "explanation": "Hannibal crossed the Alps with war elephants in 218 BCE during the Second Punic War. Pyrrhus had used elephants in Italy in an earlier war, not that one.",
+      "category": "history",
+      "difficulty": 2
+    },
+    {
+      "id": "history-rosetta-hieroglyph-key-grok",
+      "prompt": "The Rosetta Stone was the key to deciphering which writing system?",
+      "choices": [
+        "Sumerian cuneiform",
+        "Linear B",
+        "Egyptian hieroglyphs",
+        "Mayan glyphs"
+      ],
+      "correctChoice": 2,
+      "explanation": "The stone carries one decree in Egyptian hieroglyphs, Demotic, and Greek. Jean-François Champollion used the Greek text to decipher the hieroglyphs in 1822.",
+      "category": "history",
+      "difficulty": 2
+    },
+    {
+      "id": "history-ottoman-took-constantinople-grok",
+      "prompt": "Which empire captured Constantinople in 1453?",
+      "choices": [
+        "The Byzantine Empire",
+        "The Mongol Empire",
+        "The Holy Roman Empire",
+        "The Ottoman Empire"
+      ],
+      "correctChoice": 3,
+      "explanation": "The Ottoman Empire under Mehmed II captured Constantinople in 1453. The Byzantine Empire had held the city; it did not capture it.",
+      "category": "history",
+      "difficulty": 2
+    },
+    {
+      "id": "history-westphalia-1648-peace-grok",
+      "prompt": "The Peace of Westphalia, which ended the Thirty Years' War, was concluded in which year?",
+      "choices": [
+        "1648",
+        "1618",
+        "1555",
+        "1713"
+      ],
+      "correctChoice": 0,
+      "explanation": "The Peace of Westphalia was signed in 1648 and ended the Thirty Years' War. The war had begun in 1618.",
+      "category": "history",
+      "difficulty": 3
+    },
+    {
+      "id": "history-mansa-musa-hajj-century-grok",
+      "prompt": "Mansa Musa's pilgrimage to Mecca took place in which century?",
+      "choices": [
+        "The 12th century",
+        "The 14th century",
+        "The 16th century",
+        "The 18th century"
+      ],
+      "correctChoice": 1,
+      "explanation": "Mansa Musa, ruler of the Mali Empire, made his pilgrimage to Mecca in 1324, during the 14th century.",
       "category": "history",
       "difficulty": 3
     },
@@ -495,6 +775,146 @@
       "difficulty": 3
     },
     {
+      "id": "science-nature-photosynthesis-carbon-dioxide-grok",
+      "prompt": "Which gas do plants take in from the air for photosynthesis?",
+      "choices": [
+        "Carbon dioxide",
+        "Oxygen",
+        "Nitrogen",
+        "Hydrogen"
+      ],
+      "correctChoice": 0,
+      "explanation": "In photosynthesis, plants take in carbon dioxide and release oxygen. Nitrogen is abundant in air, but it is not the gas used in photosynthesis.",
+      "category": "science-nature",
+      "difficulty": 1
+    },
+    {
+      "id": "science-nature-gold-symbol-au-grok",
+      "prompt": "What is the chemical symbol for gold?",
+      "choices": [
+        "Ag",
+        "Au",
+        "Fe",
+        "Pb"
+      ],
+      "correctChoice": 1,
+      "explanation": "Gold's symbol is Au, from the Latin aurum. Ag is silver, Fe is iron, and Pb is lead.",
+      "category": "science-nature",
+      "difficulty": 1
+    },
+    {
+      "id": "science-nature-mercury-nearest-sun-grok",
+      "prompt": "Which planet is closest to the Sun?",
+      "choices": [
+        "Venus",
+        "Mars",
+        "Mercury",
+        "Earth"
+      ],
+      "correctChoice": 2,
+      "explanation": "Mercury is the innermost planet, orbiting closer to the Sun than Venus, Earth, or Mars.",
+      "category": "science-nature",
+      "difficulty": 1
+    },
+    {
+      "id": "science-nature-diamond-mohs-top-grok",
+      "prompt": "Which is the hardest natural mineral on the Mohs scale?",
+      "choices": [
+        "Quartz",
+        "Topaz",
+        "Corundum",
+        "Diamond"
+      ],
+      "correctChoice": 3,
+      "explanation": "Diamond is rated 10 on the Mohs scale, above corundum at 9, topaz at 8, and quartz at 7.",
+      "category": "science-nature",
+      "difficulty": 1
+    },
+    {
+      "id": "science-nature-nitrogen-dry-atmosphere-grok",
+      "prompt": "About what share of Earth's dry atmosphere is nitrogen?",
+      "choices": [
+        "About 78 percent",
+        "About 21 percent",
+        "About 50 percent",
+        "About 1 percent"
+      ],
+      "correctChoice": 0,
+      "explanation": "Dry air is about 78 percent nitrogen and about 21 percent oxygen. The 21 percent figure is oxygen, not nitrogen.",
+      "category": "science-nature",
+      "difficulty": 2
+    },
+    {
+      "id": "science-nature-pancreas-makes-insulin-grok",
+      "prompt": "Which organ produces the hormone insulin?",
+      "choices": [
+        "The liver",
+        "The pancreas",
+        "The spleen",
+        "The thyroid"
+      ],
+      "correctChoice": 1,
+      "explanation": "Insulin is produced by beta cells in the pancreas. The liver responds to insulin, but it does not produce it.",
+      "category": "science-nature",
+      "difficulty": 2
+    },
+    {
+      "id": "science-nature-skin-vitamin-d-grok",
+      "prompt": "Which vitamin does human skin produce when exposed to sunlight?",
+      "choices": [
+        "Vitamin A",
+        "Vitamin C",
+        "Vitamin D",
+        "Vitamin K"
+      ],
+      "correctChoice": 2,
+      "explanation": "Human skin produces vitamin D when exposed to ultraviolet sunlight. Vitamins A, C, and K are not made in the skin that way.",
+      "category": "science-nature",
+      "difficulty": 2
+    },
+    {
+      "id": "science-nature-diploid-chromosome-number-grok",
+      "prompt": "How many chromosomes does a typical human body cell have?",
+      "choices": [
+        "23",
+        "44",
+        "48",
+        "46"
+      ],
+      "correctChoice": 3,
+      "explanation": "A typical human body cell has 46 chromosomes, in 23 pairs. Sperm and egg cells have 23, not body cells.",
+      "category": "science-nature",
+      "difficulty": 2
+    },
+    {
+      "id": "science-nature-boyle-pressure-volume-grok",
+      "prompt": "Which gas law says that pressure is inversely proportional to volume when temperature and the amount of gas are held constant?",
+      "choices": [
+        "Boyle's law",
+        "Charles's law",
+        "Avogadro's law",
+        "Dalton's law"
+      ],
+      "correctChoice": 0,
+      "explanation": "Boyle's law states that, for a fixed amount of gas at constant temperature, pressure and volume are inversely proportional. Charles's law instead relates volume and temperature.",
+      "category": "science-nature",
+      "difficulty": 3
+    },
+    {
+      "id": "science-nature-family-rank-above-grok",
+      "prompt": "In the standard Linnaean ranks, which rank comes immediately above family?",
+      "choices": [
+        "Class",
+        "Order",
+        "Genus",
+        "Phylum"
+      ],
+      "correctChoice": 1,
+      "explanation": "The standard sequence runs class, order, family, genus. Order sits immediately above family, and genus sits immediately below it.",
+      "category": "science-nature",
+      "difficulty": 3
+    },
+    {
       "id": "technology-world-wide-web-larry",
       "prompt": "What does 'WWW' stand for in a web address?",
       "choices": [
@@ -561,6 +981,146 @@
       ],
       "correctChoice": 0,
       "explanation": "Quicksort picks a pivot, partitions the array around it, and recurses on each side.",
+      "category": "technology",
+      "difficulty": 3
+    },
+    {
+      "id": "technology-cpu-expansion-grok",
+      "prompt": "What does the abbreviation CPU stand for?",
+      "choices": [
+        "Central Processing Unit",
+        "Computer Processing Unit",
+        "Central Program Utility",
+        "Core Processing Unit"
+      ],
+      "correctChoice": 0,
+      "explanation": "CPU stands for central processing unit, the part of a computer that executes instructions.",
+      "category": "technology",
+      "difficulty": 1
+    },
+    {
+      "id": "technology-iphone-debut-firm-grok",
+      "prompt": "Which company introduced the iPhone in 2007?",
+      "choices": [
+        "Microsoft",
+        "Apple",
+        "Nokia",
+        "Samsung"
+      ],
+      "correctChoice": 1,
+      "explanation": "Apple introduced the iPhone in 2007. Nokia and Samsung made phones then, but they did not introduce the iPhone.",
+      "category": "technology",
+      "difficulty": 1
+    },
+    {
+      "id": "technology-firefox-is-browser-grok",
+      "prompt": "Which of these is a web browser?",
+      "choices": [
+        "Linux",
+        "Python",
+        "Firefox",
+        "Excel"
+      ],
+      "correctChoice": 2,
+      "explanation": "Firefox is a web browser. Linux is an operating system, Python is a programming language, and Excel is a spreadsheet program.",
+      "category": "technology",
+      "difficulty": 1
+    },
+    {
+      "id": "technology-terabyte-biggest-unit-grok",
+      "prompt": "Which of these units of digital storage is the largest?",
+      "choices": [
+        "A kilobyte",
+        "A megabyte",
+        "A gigabyte",
+        "A terabyte"
+      ],
+      "correctChoice": 3,
+      "explanation": "A terabyte is larger than a gigabyte, a gigabyte is larger than a megabyte, and a megabyte is larger than a kilobyte.",
+      "category": "technology",
+      "difficulty": 1
+    },
+    {
+      "id": "technology-binary-ten-value-grok",
+      "prompt": "What is the decimal value of the binary number 1010?",
+      "choices": [
+        "10",
+        "8",
+        "12",
+        "16"
+      ],
+      "correctChoice": 0,
+      "explanation": "Binary 1010 equals 8 + 2, which is 10 in decimal. The place values of those four bits are 8, 4, 2, and 1.",
+      "category": "technology",
+      "difficulty": 2
+    },
+    {
+      "id": "technology-python-comedy-namesake-grok",
+      "prompt": "The programming language Python is named after which comedy troupe?",
+      "choices": [
+        "The Goons",
+        "Monty Python",
+        "Beyond the Fringe",
+        "Kids in the Hall"
+      ],
+      "correctChoice": 1,
+      "explanation": "Guido van Rossum named Python after Monty Python, the troupe behind Monty Python's Flying Circus, not after the snake.",
+      "category": "technology",
+      "difficulty": 2
+    },
+    {
+      "id": "technology-ipv4-octet-count-grok",
+      "prompt": "A standard IPv4 address is written as how many decimal numbers separated by dots?",
+      "choices": [
+        "2",
+        "3",
+        "4",
+        "8"
+      ],
+      "correctChoice": 2,
+      "explanation": "A standard IPv4 address has four octets, written as decimal numbers separated by dots, such as 192.0.2.1.",
+      "category": "technology",
+      "difficulty": 2
+    },
+    {
+      "id": "technology-hopper-a0-system-grok",
+      "prompt": "Who developed the A-0 system, an early compiler, in 1952?",
+      "choices": [
+        "Ada Lovelace",
+        "Alan Turing",
+        "John von Neumann",
+        "Grace Hopper"
+      ],
+      "correctChoice": 3,
+      "explanation": "Grace Hopper developed the A-0 system in 1952, an early compiler for the UNIVAC. Ada Lovelace's notes on Babbage's engine were a century earlier and were not the A-0.",
+      "category": "technology",
+      "difficulty": 2
+    },
+    {
+      "id": "technology-osi-network-layer-grok",
+      "prompt": "In the OSI model, which layer is layer 3 and is responsible for routing?",
+      "choices": [
+        "The network layer",
+        "The transport layer",
+        "The data-link layer",
+        "The session layer"
+      ],
+      "correctChoice": 0,
+      "explanation": "OSI layer 3 is the network layer, which handles logical addressing and routing. The transport layer is layer 4, and the data-link layer is layer 2.",
+      "category": "technology",
+      "difficulty": 3
+    },
+    {
+      "id": "technology-rsa-adleman-name-grok",
+      "prompt": "The RSA cryptosystem is named for Rivest, Shamir, and which third inventor?",
+      "choices": [
+        "Whitfield Diffie",
+        "Leonard Adleman",
+        "Martin Hellman",
+        "Ralph Merkle"
+      ],
+      "correctChoice": 1,
+      "explanation": "RSA is named for Ron Rivest, Adi Shamir, and Leonard Adleman. Diffie and Hellman devised a different public-key method.",
       "category": "technology",
       "difficulty": 3
     },
@@ -635,6 +1195,146 @@
       "difficulty": 3
     },
     {
+      "id": "arts-literature-sistine-chapel-ceiling-grok",
+      "prompt": "Who painted the ceiling of the Sistine Chapel?",
+      "choices": [
+        "Michelangelo",
+        "Leonardo da Vinci",
+        "Raphael",
+        "Donatello"
+      ],
+      "correctChoice": 0,
+      "explanation": "Michelangelo painted the Sistine Chapel ceiling between 1508 and 1512. Raphael later painted rooms in the Vatican, but not that ceiling.",
+      "category": "arts-literature",
+      "difficulty": 1
+    },
+    {
+      "id": "arts-literature-austen-pride-prejudice-grok",
+      "prompt": "Who wrote the novel Pride and Prejudice?",
+      "choices": [
+        "Charlotte Brontë",
+        "Jane Austen",
+        "George Eliot",
+        "Mary Shelley"
+      ],
+      "correctChoice": 1,
+      "explanation": "Jane Austen wrote Pride and Prejudice, published in 1813. Charlotte Brontë wrote Jane Eyre, and Mary Shelley wrote Frankenstein.",
+      "category": "arts-literature",
+      "difficulty": 1
+    },
+    {
+      "id": "arts-literature-vangogh-starry-night-grok",
+      "prompt": "Who painted The Starry Night?",
+      "choices": [
+        "Claude Monet",
+        "Paul Cézanne",
+        "Vincent van Gogh",
+        "Edgar Degas"
+      ],
+      "correctChoice": 2,
+      "explanation": "Vincent van Gogh painted The Starry Night in 1889, while at Saint-Rémy. Monet, Cézanne, and Degas did not paint it.",
+      "category": "arts-literature",
+      "difficulty": 1
+    },
+    {
+      "id": "arts-literature-violin-string-family-grok",
+      "prompt": "The violin belongs to which instrument family?",
+      "choices": [
+        "Brass",
+        "Woodwind",
+        "Percussion",
+        "Strings"
+      ],
+      "correctChoice": 3,
+      "explanation": "The violin belongs to the strings family: it is bowed, not blown or struck. Brass, woodwind, and percussion are different families.",
+      "category": "arts-literature",
+      "difficulty": 1
+    },
+    {
+      "id": "arts-literature-mozart-magic-flute-grok",
+      "prompt": "Who composed the opera The Magic Flute?",
+      "choices": [
+        "Mozart",
+        "Beethoven",
+        "Verdi",
+        "Wagner"
+      ],
+      "correctChoice": 0,
+      "explanation": "Wolfgang Amadeus Mozart composed The Magic Flute, which premiered in 1791. Beethoven's opera was Fidelio, not The Magic Flute.",
+      "category": "arts-literature",
+      "difficulty": 2
+    },
+    {
+      "id": "arts-literature-marquez-solitude-novel-grok",
+      "prompt": "Who wrote the novel One Hundred Years of Solitude?",
+      "choices": [
+        "Isabel Allende",
+        "Gabriel García Márquez",
+        "Jorge Luis Borges",
+        "Mario Vargas Llosa"
+      ],
+      "correctChoice": 1,
+      "explanation": "Gabriel García Márquez wrote One Hundred Years of Solitude, published in 1967. Allende, Borges, and Vargas Llosa are different writers.",
+      "category": "arts-literature",
+      "difficulty": 2
+    },
+    {
+      "id": "arts-literature-ibsen-dolls-house-grok",
+      "prompt": "Who wrote the play A Doll's House?",
+      "choices": [
+        "August Strindberg",
+        "Anton Chekhov",
+        "Henrik Ibsen",
+        "George Bernard Shaw"
+      ],
+      "correctChoice": 2,
+      "explanation": "Henrik Ibsen wrote A Doll's House, first performed in 1879. Strindberg, Chekhov, and Shaw wrote other plays.",
+      "category": "arts-literature",
+      "difficulty": 2
+    },
+    {
+      "id": "arts-literature-vivaldi-four-seasons-grok",
+      "prompt": "Who composed the violin concertos known as The Four Seasons?",
+      "choices": [
+        "Johann Sebastian Bach",
+        "George Frideric Handel",
+        "Arcangelo Corelli",
+        "Antonio Vivaldi"
+      ],
+      "correctChoice": 3,
+      "explanation": "Antonio Vivaldi composed The Four Seasons, four violin concertos published in 1725. Bach did not write that set.",
+      "category": "arts-literature",
+      "difficulty": 2
+    },
+    {
+      "id": "arts-literature-murasaki-tale-genji-grok",
+      "prompt": "Who wrote The Tale of Genji in the early 11th century?",
+      "choices": [
+        "Murasaki Shikibu",
+        "Sei Shōnagon",
+        "Ono no Komachi",
+        "Lady Sarashina"
+      ],
+      "correctChoice": 0,
+      "explanation": "Murasaki Shikibu wrote The Tale of Genji in the early 11th century. Sei Shōnagon wrote The Pillow Book, a different Heian work.",
+      "category": "arts-literature",
+      "difficulty": 3
+    },
+    {
+      "id": "arts-literature-beowulf-old-english-grok",
+      "prompt": "The epic poem Beowulf was written in which language?",
+      "choices": [
+        "Old Norse",
+        "Old English",
+        "Middle English",
+        "Latin"
+      ],
+      "correctChoice": 1,
+      "explanation": "Beowulf is composed in Old English and survives in a manuscript from around the year 1000. It is not Old Norse, and Middle English is a later stage of English.",
+      "category": "arts-literature",
+      "difficulty": 3
+    },
+    {
       "id": "pop-culture-abbey-road-band-larry",
       "prompt": "Which band released the album Abbey Road in 1969?",
       "choices": [
@@ -701,6 +1401,146 @@
       ],
       "correctChoice": 0,
       "explanation": "Bernard Herrmann scored several Hitchcock films; Psycho's music uses strings only.",
+      "category": "pop-culture",
+      "difficulty": 3
+    },
+    {
+      "id": "pop-culture-may-the-force-series-grok",
+      "prompt": "The line 'May the Force be with you' is associated with which film series?",
+      "choices": [
+        "Star Wars",
+        "Star Trek",
+        "Indiana Jones",
+        "Mad Max"
+      ],
+      "correctChoice": 0,
+      "explanation": "The line is a signature farewell in the Star Wars films. Star Trek uses a different farewell, 'Live long and prosper.'",
+      "category": "pop-culture",
+      "difficulty": 1
+    },
+    {
+      "id": "pop-culture-satisfaction-rolling-stones-grok",
+      "prompt": "Which band released the 1965 song '(I Can't Get No) Satisfaction'?",
+      "choices": [
+        "The Beatles",
+        "The Rolling Stones",
+        "The Kinks",
+        "The Animals"
+      ],
+      "correctChoice": 1,
+      "explanation": "The Rolling Stones released '(I Can't Get No) Satisfaction' in 1965. The Beatles were contemporaries, but they did not record that song.",
+      "category": "pop-culture",
+      "difficulty": 1
+    },
+    {
+      "id": "pop-culture-jurassic-park-spielberg-grok",
+      "prompt": "Who directed the 1993 film Jurassic Park?",
+      "choices": [
+        "James Cameron",
+        "George Lucas",
+        "Steven Spielberg",
+        "Ridley Scott"
+      ],
+      "correctChoice": 2,
+      "explanation": "Steven Spielberg directed Jurassic Park, released in 1993.",
+      "category": "pop-culture",
+      "difficulty": 1
+    },
+    {
+      "id": "pop-culture-aladdin-whole-new-world-grok",
+      "prompt": "Which 1992 animated film features the song 'A Whole New World'?",
+      "choices": [
+        "The Little Mermaid",
+        "Beauty and the Beast",
+        "The Lion King",
+        "Aladdin"
+      ],
+      "correctChoice": 3,
+      "explanation": "'A Whole New World' is a song in Disney's 1992 film Aladdin. The other films listed have different songs.",
+      "category": "pop-culture",
+      "difficulty": 1
+    },
+    {
+      "id": "pop-culture-lawrence-otoole-role-grok",
+      "prompt": "Who played T. E. Lawrence in the 1962 film Lawrence of Arabia?",
+      "choices": [
+        "Peter O'Toole",
+        "Alec Guinness",
+        "Omar Sharif",
+        "Anthony Quinn"
+      ],
+      "correctChoice": 0,
+      "explanation": "Peter O'Toole played T. E. Lawrence. Omar Sharif played Sherif Ali, and Alec Guinness played Prince Faisal, so both appear in the film but not in the title role.",
+      "category": "pop-culture",
+      "difficulty": 2
+    },
+    {
+      "id": "pop-culture-dark-side-pink-floyd-grok",
+      "prompt": "Which band released the 1973 album The Dark Side of the Moon?",
+      "choices": [
+        "Led Zeppelin",
+        "Pink Floyd",
+        "Deep Purple",
+        "Black Sabbath"
+      ],
+      "correctChoice": 1,
+      "explanation": "Pink Floyd released The Dark Side of the Moon in 1973. The other bands listed did not release that album.",
+      "category": "pop-culture",
+      "difficulty": 2
+    },
+    {
+      "id": "pop-culture-twilight-zone-serling-grok",
+      "prompt": "Who created the television series The Twilight Zone?",
+      "choices": [
+        "Gene Roddenberry",
+        "Alfred Hitchcock",
+        "Rod Serling",
+        "Irwin Allen"
+      ],
+      "correctChoice": 2,
+      "explanation": "Rod Serling created The Twilight Zone, which premiered in 1959. Gene Roddenberry created Star Trek, a different series.",
+      "category": "pop-culture",
+      "difficulty": 2
+    },
+    {
+      "id": "pop-culture-citizen-kane-welles-grok",
+      "prompt": "Who directed the 1941 film Citizen Kane?",
+      "choices": [
+        "John Ford",
+        "Howard Hawks",
+        "Frank Capra",
+        "Orson Welles"
+      ],
+      "correctChoice": 3,
+      "explanation": "Orson Welles directed Citizen Kane, released in 1941, and also played Charles Foster Kane.",
+      "category": "pop-culture",
+      "difficulty": 2
+    },
+    {
+      "id": "pop-culture-wings-first-oscar-grok",
+      "prompt": "Which film won the first Academy Award for Best Picture?",
+      "choices": [
+        "Wings",
+        "Sunrise",
+        "Metropolis",
+        "The Jazz Singer"
+      ],
+      "correctChoice": 0,
+      "explanation": "Wings won Outstanding Picture, the award now called Best Picture, at the first Academy Awards in 1929. Sunrise won a separate, one-time award for Unique and Artistic Picture.",
+      "category": "pop-culture",
+      "difficulty": 3
+    },
+    {
+      "id": "pop-culture-samurai-magnificent-seven-grok",
+      "prompt": "Which Akira Kurosawa film was remade as the 1960 Western The Magnificent Seven?",
+      "choices": [
+        "Rashomon",
+        "Seven Samurai",
+        "Yojimbo",
+        "Throne of Blood"
+      ],
+      "correctChoice": 1,
+      "explanation": "The Magnificent Seven (1960) is a remake of Kurosawa's Seven Samurai (1954). Yojimbo was the source for A Fistful of Dollars, not for The Magnificent Seven.",
       "category": "pop-culture",
       "difficulty": 3
     },
@@ -775,6 +1615,146 @@
       "difficulty": 3
     },
     {
+      "id": "sports-games-basketball-on-court-grok",
+      "prompt": "How many players does one basketball team have on the court at a time?",
+      "choices": [
+        "5",
+        "4",
+        "6",
+        "7"
+      ],
+      "correctChoice": 0,
+      "explanation": "A basketball team fields 5 players on the court at a time. Other players are substitutes.",
+      "category": "sports-games",
+      "difficulty": 1
+    },
+    {
+      "id": "sports-games-hockey-puck-sport-grok",
+      "prompt": "Which of these sports is played with a puck?",
+      "choices": [
+        "Basketball",
+        "Ice hockey",
+        "Tennis",
+        "Golf"
+      ],
+      "correctChoice": 1,
+      "explanation": "Ice hockey is played with a puck. Basketball, tennis, and golf are played with balls.",
+      "category": "sports-games",
+      "difficulty": 1
+    },
+    {
+      "id": "sports-games-golf-standard-holes-grok",
+      "prompt": "How many holes are in a standard round of golf?",
+      "choices": [
+        "9",
+        "12",
+        "18",
+        "21"
+      ],
+      "correctChoice": 2,
+      "explanation": "A standard round of golf is 18 holes. A 9-hole round is a shorter round, not the standard full round.",
+      "category": "sports-games",
+      "difficulty": 1
+    },
+    {
+      "id": "sports-games-wimbledon-london-site-grok",
+      "prompt": "The Wimbledon tennis championships are held in which city?",
+      "choices": [
+        "Paris",
+        "New York",
+        "Melbourne",
+        "London"
+      ],
+      "correctChoice": 3,
+      "explanation": "Wimbledon is held at the All England Club in London. Paris hosts the French Open, New York the US Open, and Melbourne the Australian Open.",
+      "category": "sports-games",
+      "difficulty": 1
+    },
+    {
+      "id": "sports-games-marathon-race-distance-grok",
+      "prompt": "What is the official distance of a marathon?",
+      "choices": [
+        "42.195 kilometres",
+        "21.0975 kilometres",
+        "50 kilometres",
+        "100 kilometres"
+      ],
+      "correctChoice": 0,
+      "explanation": "The official marathon distance is 42.195 kilometres, standardized in 1921. Half of that, 21.0975 kilometres, is a half marathon.",
+      "category": "sports-games",
+      "difficulty": 2
+    },
+    {
+      "id": "sports-games-athens-1896-host-grok",
+      "prompt": "In which country were the first modern Olympic Games held, in 1896?",
+      "choices": [
+        "France",
+        "Greece",
+        "Italy",
+        "United Kingdom"
+      ],
+      "correctChoice": 1,
+      "explanation": "The first modern Olympic Games were held in Athens, Greece, in 1896. Paris hosted the 1900 Games, and London the 1908 Games.",
+      "category": "sports-games",
+      "difficulty": 2
+    },
+    {
+      "id": "sports-games-touchdown-point-value-grok",
+      "prompt": "In American football, how many points is a touchdown worth before any conversion?",
+      "choices": [
+        "3 points",
+        "4 points",
+        "6 points",
+        "7 points"
+      ],
+      "correctChoice": 2,
+      "explanation": "A touchdown itself is worth 6 points. A successful extra-point kick adds 1, which is why 7 is a common total, but the touchdown alone is 6. A field goal is 3.",
+      "category": "sports-games",
+      "difficulty": 2
+    },
+    {
+      "id": "sports-games-queen-pawn-value-grok",
+      "prompt": "In the common chess teaching scale of piece values, which piece is valued at nine pawns?",
+      "choices": [
+        "The rook",
+        "The bishop",
+        "The knight",
+        "The queen"
+      ],
+      "correctChoice": 3,
+      "explanation": "On the usual teaching scale, a queen is worth nine pawns, a rook five, and a bishop or knight three. These are conventions for learning, not a rule of play.",
+      "category": "sports-games",
+      "difficulty": 2
+    },
+    {
+      "id": "sports-games-uruguay-1930-cup-grok",
+      "prompt": "Which country won the first FIFA World Cup, in 1930?",
+      "choices": [
+        "Uruguay",
+        "Brazil",
+        "Argentina",
+        "Italy"
+      ],
+      "correctChoice": 0,
+      "explanation": "Uruguay hosted and won the first FIFA World Cup in 1930, defeating Argentina in the final. Italy won the next tournament, in 1934.",
+      "category": "sports-games",
+      "difficulty": 3
+    },
+    {
+      "id": "sports-games-tour-france-1903-grok",
+      "prompt": "In which year was the first Tour de France held?",
+      "choices": [
+        "1896",
+        "1903",
+        "1919",
+        "1927"
+      ],
+      "correctChoice": 1,
+      "explanation": "The first Tour de France was held in 1903, organized by the newspaper L'Auto. The race was suspended during the First World War and resumed in 1919.",
+      "category": "sports-games",
+      "difficulty": 3
+    },
+    {
       "id": "food-drink-sushi-origin-country-larry",
       "prompt": "Sushi is a traditional dish that originated in which country?",
       "choices": [
@@ -841,6 +1821,146 @@
       ],
       "correctChoice": 2,
       "explanation": "Yeast converts sugars into ethanol and carbon dioxide during fermentation.",
+      "category": "food-drink",
+      "difficulty": 3
+    },
+    {
+      "id": "food-drink-sake-rice-base-grok",
+      "prompt": "Which grain is the principal ingredient in traditional Japanese sake?",
+      "choices": [
+        "Rice",
+        "Wheat",
+        "Barley",
+        "Millet"
+      ],
+      "correctChoice": 0,
+      "explanation": "Traditional sake is brewed from rice. Wheat, barley, and millet are not its principal grain.",
+      "category": "food-drink",
+      "difficulty": 1
+    },
+    {
+      "id": "food-drink-hummus-chickpea-dip-grok",
+      "prompt": "Hummus is made primarily from which legume?",
+      "choices": [
+        "Lentils",
+        "Chickpeas",
+        "Black beans",
+        "Soybeans"
+      ],
+      "correctChoice": 1,
+      "explanation": "Hummus is a paste made primarily from cooked chickpeas, usually with tahini, lemon, and garlic.",
+      "category": "food-drink",
+      "difficulty": 1
+    },
+    {
+      "id": "food-drink-margherita-mozzarella-grok",
+      "prompt": "Which cheese is traditional on a pizza margherita, with tomato and basil?",
+      "choices": [
+        "Parmesan",
+        "Cheddar",
+        "Mozzarella",
+        "Ricotta"
+      ],
+      "correctChoice": 2,
+      "explanation": "A traditional pizza margherita is topped with tomato, mozzarella, and basil. Parmesan and ricotta are different cheeses.",
+      "category": "food-drink",
+      "difficulty": 1
+    },
+    {
+      "id": "food-drink-cacao-chocolate-tree-grok",
+      "prompt": "Chocolate is made from the seeds of which tree?",
+      "choices": [
+        "The coffee tree",
+        "The kola tree",
+        "The nutmeg tree",
+        "The cacao tree"
+      ],
+      "correctChoice": 3,
+      "explanation": "Chocolate is made from the seeds of the cacao tree, Theobroma cacao. The kola tree is used for cola flavoring, not chocolate.",
+      "category": "food-drink",
+      "difficulty": 1
+    },
+    {
+      "id": "food-drink-mojito-rum-base-grok",
+      "prompt": "Which spirit is the base of a traditional mojito?",
+      "choices": [
+        "Rum",
+        "Tequila",
+        "Vodka",
+        "Gin"
+      ],
+      "correctChoice": 0,
+      "explanation": "A traditional mojito is made with rum, lime, sugar, mint, and soda water. Tequila is the base of a margarita, not a mojito.",
+      "category": "food-drink",
+      "difficulty": 2
+    },
+    {
+      "id": "food-drink-marzipan-almond-paste-grok",
+      "prompt": "Which nut is the traditional main ingredient of marzipan?",
+      "choices": [
+        "Hazelnuts",
+        "Almonds",
+        "Walnuts",
+        "Pistachios"
+      ],
+      "correctChoice": 1,
+      "explanation": "Marzipan is a paste of ground almonds and sugar. The other nuts listed are used in different confections.",
+      "category": "food-drink",
+      "difficulty": 2
+    },
+    {
+      "id": "food-drink-vinegar-acetic-acid-grok",
+      "prompt": "Which acid gives vinegar its sharp taste?",
+      "choices": [
+        "Citric acid",
+        "Lactic acid",
+        "Acetic acid",
+        "Tartaric acid"
+      ],
+      "correctChoice": 2,
+      "explanation": "Vinegar's sharp taste comes from acetic acid, produced when bacteria oxidize ethanol. Citric acid is the main acid in citrus fruit, not in vinegar.",
+      "category": "food-drink",
+      "difficulty": 2
+    },
+    {
+      "id": "food-drink-tofu-soybean-curd-grok",
+      "prompt": "Tofu is made primarily from which plant?",
+      "choices": [
+        "Chickpeas",
+        "Lentils",
+        "Peanuts",
+        "Soybeans"
+      ],
+      "correctChoice": 3,
+      "explanation": "Tofu is made by curdling soy milk from soybeans. Chickpeas are the base of hummus, not of tofu.",
+      "category": "food-drink",
+      "difficulty": 2
+    },
+    {
+      "id": "food-drink-cinnamon-inner-bark-grok",
+      "prompt": "Cinnamon is harvested from which part of the cinnamon tree?",
+      "choices": [
+        "The inner bark",
+        "The dried seeds",
+        "The flower stigmas",
+        "The roots"
+      ],
+      "correctChoice": 0,
+      "explanation": "Cinnamon is the dried inner bark of Cinnamomum trees. The seeds, stigmas, and roots are not the part harvested as cinnamon.",
+      "category": "food-drink",
+      "difficulty": 3
+    },
+    {
+      "id": "food-drink-kombu-kelp-stock-grok",
+      "prompt": "Kombu, used in the Japanese stock dashi, is which of these?",
+      "choices": [
+        "A dried fish",
+        "A seaweed",
+        "A mushroom",
+        "A grain"
+      ],
+      "correctChoice": 1,
+      "explanation": "Kombu is an edible kelp, a kind of seaweed, simmered to make dashi. Dried bonito is a fish product also used in dashi, and it is not kombu.",
       "category": "food-drink",
       "difficulty": 3
     },
@@ -915,6 +2035,146 @@
       "difficulty": 3
     },
     {
+      "id": "language-words-brazil-speaks-portuguese-grok",
+      "prompt": "Which language is the official language of Brazil?",
+      "choices": [
+        "Portuguese",
+        "Spanish",
+        "French",
+        "Italian"
+      ],
+      "correctChoice": 0,
+      "explanation": "Portuguese is the official language of Brazil. Spanish is official in most neighboring countries, but not in Brazil.",
+      "category": "language-words",
+      "difficulty": 1
+    },
+    {
+      "id": "language-words-prefix-bio-life-grok",
+      "prompt": "In word formation, what does the prefix 'bio-' mean?",
+      "choices": [
+        "Earth",
+        "Life",
+        "Water",
+        "Star"
+      ],
+      "correctChoice": 1,
+      "explanation": "The prefix 'bio-' comes from the Greek bios, meaning life, as in biology. 'Geo-' means earth, and 'hydro-' means water.",
+      "category": "language-words",
+      "difficulty": 1
+    },
+    {
+      "id": "language-words-ciao-italian-greeting-grok",
+      "prompt": "'Ciao', used to say hello or goodbye, is borrowed from which language?",
+      "choices": [
+        "Spanish",
+        "French",
+        "Italian",
+        "Portuguese"
+      ],
+      "correctChoice": 2,
+      "explanation": "'Ciao' is an Italian greeting and farewell, borrowed into many other languages. It is not originally Spanish or French.",
+      "category": "language-words",
+      "difficulty": 1
+    },
+    {
+      "id": "language-words-exactly-two-languages-grok",
+      "prompt": "A person who speaks exactly two languages is described as what?",
+      "choices": [
+        "Monolingual",
+        "Trilingual",
+        "Polyglot",
+        "Bilingual"
+      ],
+      "correctChoice": 3,
+      "explanation": "Bilingual means speaking two languages. Monolingual means one, trilingual means three, and polyglot means several rather than exactly two.",
+      "category": "language-words",
+      "difficulty": 1
+    },
+    {
+      "id": "language-words-eg-means-example-grok",
+      "prompt": "The abbreviation 'e.g.' is used to mean which of these?",
+      "choices": [
+        "For example",
+        "That is",
+        "And so on",
+        "Note well"
+      ],
+      "correctChoice": 0,
+      "explanation": "'E.g.' stands for the Latin exempli gratia, meaning 'for example'. 'That is' is 'i.e.', and 'and so on' is 'etc.'",
+      "category": "language-words",
+      "difficulty": 2
+    },
+    {
+      "id": "language-words-english-germanic-family-grok",
+      "prompt": "Within the Indo-European family, English is classified as which of these?",
+      "choices": [
+        "A Romance language",
+        "A Germanic language",
+        "A Slavic language",
+        "A Celtic language"
+      ],
+      "correctChoice": 1,
+      "explanation": "English is a West Germanic language, in the same branch as German and Dutch. French loanwords do not make English a Romance language.",
+      "category": "language-words",
+      "difficulty": 2
+    },
+    {
+      "id": "language-words-buzz-onomatopoeia-grok",
+      "prompt": "What is the term for a word that imitates a sound, such as 'buzz'?",
+      "choices": [
+        "Metaphor",
+        "Simile",
+        "Onomatopoeia",
+        "Oxymoron"
+      ],
+      "correctChoice": 2,
+      "explanation": "Onomatopoeia is a word that imitates a sound, such as 'buzz'. A metaphor is a comparison, not a sound imitation.",
+      "category": "language-words",
+      "difficulty": 2
+    },
+    {
+      "id": "language-words-kanji-with-kana-grok",
+      "prompt": "Which writing system is used for modern Japanese along with hiragana and katakana?",
+      "choices": [
+        "Hangul",
+        "Cyrillic",
+        "Devanagari",
+        "Kanji"
+      ],
+      "correctChoice": 3,
+      "explanation": "Modern Japanese is written with kanji, adapted from Chinese characters, plus hiragana and katakana. Hangul is the Korean alphabet.",
+      "category": "language-words",
+      "difficulty": 2
+    },
+    {
+      "id": "language-words-zamenhof-esperanto-grok",
+      "prompt": "Who created the constructed language Esperanto?",
+      "choices": [
+        "Ludwik Zamenhof",
+        "J. R. R. Tolkien",
+        "Ludwig Wittgenstein",
+        "Noam Chomsky"
+      ],
+      "correctChoice": 0,
+      "explanation": "Ludwik Zamenhof created Esperanto and published its first textbook in 1887. Tolkien invented fictional languages, not Esperanto.",
+      "category": "language-words",
+      "difficulty": 3
+    },
+    {
+      "id": "language-words-vowel-shift-english-grok",
+      "prompt": "The Great Vowel Shift was a major sound change in which language?",
+      "choices": [
+        "French",
+        "English",
+        "German",
+        "Latin"
+      ],
+      "correctChoice": 1,
+      "explanation": "The Great Vowel Shift was a series of changes in the pronunciation of English long vowels, roughly from the 15th century to the 18th.",
+      "category": "language-words",
+      "difficulty": 3
+    },
+    {
       "id": "world-everyday-minutes-in-three-hours-larry",
       "prompt": "How many minutes are there in three hours?",
       "choices": [
@@ -981,6 +2241,146 @@
       ],
       "correctChoice": 1,
       "explanation": "The French Academy defined the metre from the Earth's meridian; the kilometre is simply a thousand metres.",
+      "category": "world-everyday",
+      "difficulty": 3
+    },
+    {
+      "id": "world-everyday-leap-year-length-grok",
+      "prompt": "How many days are in a leap year?",
+      "choices": [
+        "366",
+        "365",
+        "364",
+        "360"
+      ],
+      "correctChoice": 0,
+      "explanation": "A leap year has 366 days because it includes 29 February. A common year has 365 days.",
+      "category": "world-everyday",
+      "difficulty": 1
+    },
+    {
+      "id": "world-everyday-subtractive-paint-mix-grok",
+      "prompt": "Mixing blue and yellow paint produces which color?",
+      "choices": [
+        "Orange",
+        "Green",
+        "Purple",
+        "Brown"
+      ],
+      "correctChoice": 1,
+      "explanation": "Blue and yellow paint mix to make green. Orange comes from red and yellow, and purple from red and blue.",
+      "category": "world-everyday",
+      "difficulty": 1
+    },
+    {
+      "id": "world-everyday-count-of-dozen-grok",
+      "prompt": "A dozen of something is how many?",
+      "choices": [
+        "6",
+        "10",
+        "12",
+        "20"
+      ],
+      "correctChoice": 2,
+      "explanation": "A dozen is 12. Half a dozen is 6, and a score is 20.",
+      "category": "world-everyday",
+      "difficulty": 1
+    },
+    {
+      "id": "world-everyday-common-year-february-grok",
+      "prompt": "Which month has exactly 28 days in a common year?",
+      "choices": [
+        "April",
+        "June",
+        "September",
+        "February"
+      ],
+      "correctChoice": 3,
+      "explanation": "February has 28 days in a common year and 29 in a leap year. April, June, and September each have 30.",
+      "category": "world-everyday",
+      "difficulty": 1
+    },
+    {
+      "id": "world-everyday-roman-letter-l-grok",
+      "prompt": "In Roman numerals, what number does the letter L stand for?",
+      "choices": [
+        "50",
+        "100",
+        "500",
+        "1000"
+      ],
+      "correctChoice": 0,
+      "explanation": "In Roman numerals, L stands for 50. C stands for 100, D for 500, and M for 1000.",
+      "category": "world-everyday",
+      "difficulty": 2
+    },
+    {
+      "id": "world-everyday-numeric-score-twenty-grok",
+      "prompt": "As a number, a score equals how many?",
+      "choices": [
+        "10",
+        "20",
+        "50",
+        "100"
+      ],
+      "correctChoice": 1,
+      "explanation": "A score is 20. The phrase 'four score and seven' means 87, which is 4 times 20, plus 7.",
+      "category": "world-everyday",
+      "difficulty": 2
+    },
+    {
+      "id": "world-everyday-barometer-air-pressure-grok",
+      "prompt": "Which instrument measures atmospheric pressure?",
+      "choices": [
+        "Thermometer",
+        "Hygrometer",
+        "Barometer",
+        "Anemometer"
+      ],
+      "correctChoice": 2,
+      "explanation": "A barometer measures atmospheric pressure. A thermometer measures temperature, a hygrometer humidity, and an anemometer wind speed.",
+      "category": "world-everyday",
+      "difficulty": 2
+    },
+    {
+      "id": "world-everyday-gregorian-civil-calendar-grok",
+      "prompt": "Which calendar is the civil calendar used internationally?",
+      "choices": [
+        "The Julian calendar",
+        "The Hebrew calendar",
+        "The Islamic calendar",
+        "The Gregorian calendar"
+      ],
+      "correctChoice": 3,
+      "explanation": "The Gregorian calendar, introduced in 1582, is the civil calendar used internationally. The Julian calendar is its predecessor and is no longer the common civil calendar.",
+      "category": "world-everyday",
+      "difficulty": 2
+    },
+    {
+      "id": "world-everyday-zodiac-rat-first-grok",
+      "prompt": "In the traditional Chinese zodiac, which animal comes first in the twelve-year cycle?",
+      "choices": [
+        "The Rat",
+        "The Ox",
+        "The Dragon",
+        "The Tiger"
+      ],
+      "correctChoice": 0,
+      "explanation": "The traditional Chinese zodiac cycle begins with the Rat, then the Ox, the Tiger, and the Rabbit. The Dragon is fifth, not first.",
+      "category": "world-everyday",
+      "difficulty": 3
+    },
+    {
+      "id": "world-everyday-heraldic-gules-red-grok",
+      "prompt": "In heraldry, which color is the tincture called 'gules'?",
+      "choices": [
+        "Blue",
+        "Red",
+        "Green",
+        "Black"
+      ],
+      "correctChoice": 1,
+      "explanation": "In heraldry, gules is red. Azure is blue, vert is green, and sable is black.",
       "category": "world-everyday",
       "difficulty": 3
     }

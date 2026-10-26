@@ -6,21 +6,44 @@
 
 Every fact already in the pool is listed below, one line per question (id — prompt). A new contribution must not ask the same fact again, even reworded: if your question's fact appears here, pick a different fact. Same event, different fact (which king vs which year) is acceptable; same fact, new wording is not.
 
-**70 questions in the pool.**
+**170 questions in the pool.**
 
+- `arts-literature-austen-pride-prejudice-grok` — Who wrote the novel Pride and Prejudice?
+- `arts-literature-beowulf-old-english-grok` — The epic poem Beowulf was written in which language?
 - `arts-literature-call-me-ishmael-larry` — Which novel opens with the words 'Call me Ishmael'?
 - `arts-literature-goldberg-variations-larry` — Which composer wrote the Goldberg Variations for keyboard?
+- `arts-literature-ibsen-dolls-house-grok` — Who wrote the play A Doll's House?
+- `arts-literature-marquez-solitude-novel-grok` — Who wrote the novel One Hundred Years of Solitude?
 - `arts-literature-mona-lisa-painter-larry` — Who painted the Mona Lisa?
+- `arts-literature-mozart-magic-flute-grok` — Who composed the opera The Magic Flute?
+- `arts-literature-murasaki-tale-genji-grok` — Who wrote The Tale of Genji in the early 11th century?
 - `arts-literature-odyssey-poet-larry` — The epic poem the Odyssey is traditionally attributed to which ancient Greek poet?
 - `arts-literature-romeo-and-juliet-author-larry` — Who wrote the play Romeo and Juliet?
+- `arts-literature-sistine-chapel-ceiling-grok` — Who painted the ceiling of the Sistine Chapel?
+- `arts-literature-vangogh-starry-night-grok` — Who painted The Starry Night?
+- `arts-literature-violin-string-family-grok` — The violin belongs to which instrument family?
+- `arts-literature-vivaldi-four-seasons-grok` — Who composed the violin concertos known as The Four Seasons?
+- `food-drink-cacao-chocolate-tree-grok` — Chocolate is made from the seeds of which tree?
+- `food-drink-cinnamon-inner-bark-grok` — Cinnamon is harvested from which part of the cinnamon tree?
 - `food-drink-fermentation-yeast-larry` — The alcohol in beer and wine is produced by fermentation carried out by which organism?
 - `food-drink-guacamole-main-ingredient-larry` — What is the main ingredient in guacamole?
+- `food-drink-hummus-chickpea-dip-grok` — Hummus is made primarily from which legume?
+- `food-drink-kombu-kelp-stock-grok` — Kombu, used in the Japanese stock dashi, is which of these?
+- `food-drink-margherita-mozzarella-grok` — Which cheese is traditional on a pizza margherita, with tomato and basil?
+- `food-drink-marzipan-almond-paste-grok` — Which nut is the traditional main ingredient of marzipan?
+- `food-drink-mojito-rum-base-grok` — Which spirit is the base of a traditional mojito?
 - `food-drink-risotto-rice-larry` — Which variety of rice is traditionally used to make risotto?
 - `food-drink-saffron-flower-larry` — Saffron, among the most expensive spices by weight, is harvested from which flower?
+- `food-drink-sake-rice-base-grok` — Which grain is the principal ingredient in traditional Japanese sake?
 - `food-drink-sushi-origin-country-larry` — Sushi is a traditional dish that originated in which country?
+- `food-drink-tofu-soybean-curd-grok` — Tofu is made primarily from which plant?
+- `food-drink-vinegar-acetic-acid-grok` — Which acid gives vinegar its sharp taste?
+- `geography-agulhas-southern-cape-grok` — Which cape is the southernmost point of the African mainland?
 - `geography-amazon-rainforest-continent-antigravity` — On which continent is the Amazon rainforest located?
 - `geography-andorra-pyrenees-neighbors-antigravity` — The microstate of Andorra lies in the Pyrenees mountains between which two countries?
 - `geography-angel-falls-venezuela-drop-antigravity` — Angel Falls, the world's highest terrestrial waterfall, is located in which South American country?
+- `geography-brasilia-replaced-rio-grok` — Brasília replaced which city as Brazil's capital in 1960?
+- `geography-canada-capital-city-grok` — What is the capital city of Canada?
 - `geography-capital-of-japan-larry` — What is the capital city of Japan?
 - `geography-danube-capital-vienna-larry` — Which of these capital cities stands on the River Danube?
 - `geography-double-landlocked-uzbekistan-liechtenstein-antigravity` — Along with Liechtenstein, which Central Asian republic is one of the world's only two doubly landlocked countries?
@@ -29,6 +52,7 @@ Every fact already in the pool is listed below, one line per question (id — pr
 - `geography-equator-zero-latitude-antigravity` — Which imaginary line circles the Earth at zero degrees latitude?
 - `geography-grand-canyon-state-antigravity` — In which US state is the Grand Canyon located?
 - `geography-great-barrier-reef-coast-antigravity` — The Great Barrier Reef lies in the Coral Sea off the northeastern coast of which country?
+- `geography-great-wall-country-grok` — The Great Wall is a historic fortification in which country?
 - `geography-iberian-peninsula-nations-antigravity` — Spain and Portugal occupy nearly all of which European peninsula?
 - `geography-kilimanjaro-tanzania-peak-antigravity` — Mount Kilimanjaro, the highest peak in Africa, is located in which country?
 - `geography-lake-baikal-siberia-depth-antigravity` — Which is the deepest lake in the world?
@@ -38,43 +62,119 @@ Every fact already in the pool is listed below, one line per question (id — pr
 - `geography-mariana-trench-ocean-basin-antigravity` — In which ocean is the Mariana Trench, the deepest known part of the world's oceans, located?
 - `geography-mount-everest-range-antigravity` — In which mountain range does Mount Everest stand?
 - `geography-nile-empty-sea-antigravity` — Into which body of water does the Nile River empty?
+- `geography-okavango-delta-botswana-grok` — The Okavango River ends in an inland delta in which country?
 - `geography-panama-canal-oceans-antigravity` — Which two oceans are connected by the Panama Canal?
 - `geography-shared-island-borneo-three-states-antigravity` — Which island in Maritime Southeast Asia is politically divided among Indonesia, Malaysia, and Brunei?
 - `geography-sicily-mediterranean-island-antigravity` — The Mediterranean island of Sicily is part of which country?
 - `geography-strait-of-malacca-larry` — Which strait separates Peninsular Malaysia from the Indonesian island of Sumatra?
+- `geography-suez-links-red-sea-grok` — The Suez Canal connects the Mediterranean Sea with which sea?
+- `geography-timbuktu-in-mali-grok` — The historic city of Timbuktu is in which modern country?
+- `geography-titicaca-peru-bolivia-grok` — Lake Titicaca lies on the border between Peru and which other country?
+- `geography-venice-adriatic-lagoon-grok` — Venice is built on islands in a lagoon of which sea?
+- `geography-victoria-nile-jinja-grok` — At Jinja, Uganda, the Victoria Nile leaves which lake?
 - `geography-volga-river-caspian-mouth-antigravity` — Into which landlocked body of water does the Volga, the longest river in Europe, empty?
+- `history-augustus-first-emperor-grok` — Who became the first Roman emperor in 27 BCE?
+- `history-bastille-in-paris-grok` — The Bastille, stormed at the start of the French Revolution, stood in which city?
+- `history-columbus-americas-year-grok` — In which year did Christopher Columbus's first voyage reach the Americas?
 - `history-first-us-president-larry` — Who was the first President of the United States?
 - `history-gutenberg-printing-press-larry` — Who is credited with developing the movable-type printing press in Europe around 1440?
+- `history-hannibal-punic-crossing-grok` — Which general crossed the Alps with war elephants to invade Italy in the Second Punic War?
+- `history-jefferson-declaration-draft-grok` — Who was the principal author of the United States Declaration of Independence?
+- `history-machu-picchu-inca-grok` — Machu Picchu was built by which civilization?
 - `history-magna-carta-king-john-larry` — Which English king sealed Magna Carta in 1215?
+- `history-mansa-musa-hajj-century-grok` — Mansa Musa's pilgrimage to Mecca took place in which century?
+- `history-ottoman-took-constantinople-grok` — Which empire captured Constantinople in 1453?
+- `history-rosetta-hieroglyph-key-grok` — The Rosetta Stone was the key to deciphering which writing system?
 - `history-second-world-war-end-larry` — In which year did the Second World War end?
 - `history-treaty-of-tordesillas-larry` — The Treaty of Tordesillas (1494) divided newly encountered lands outside Europe between which two powers?
+- `history-westphalia-1648-peace-grok` — The Peace of Westphalia, which ended the Thirty Years' War, was concluded in which year?
+- `language-words-brazil-speaks-portuguese-grok` — Which language is the official language of Brazil?
+- `language-words-buzz-onomatopoeia-grok` — What is the term for a word that imitates a sound, such as 'buzz'?
 - `language-words-carpe-diem-meaning-larry` — The Latin phrase 'carpe diem' comes from a poem by Horace. What does it urge the reader to do?
+- `language-words-ciao-italian-greeting-grok` — 'Ciao', used to say hello or goodbye, is borrowed from which language?
+- `language-words-eg-means-example-grok` — The abbreviation 'e.g.' is used to mean which of these?
 - `language-words-english-alphabet-letters-larry` — How many letters are there in the modern English alphabet?
+- `language-words-english-germanic-family-grok` — Within the Indo-European family, English is classified as which of these?
+- `language-words-exactly-two-languages-grok` — A person who speaks exactly two languages is described as what?
+- `language-words-kanji-with-kana-grok` — Which writing system is used for modern Japanese along with hiragana and katakana?
 - `language-words-most-native-speakers-larry` — Which language has the largest number of native speakers?
 - `language-words-opposite-of-ancient-larry` — Which word is the best opposite (antonym) of 'ancient'?
 - `language-words-palindrome-term-larry` — What is the term for a word or phrase that reads the same forwards and backwards, such as 'level'?
+- `language-words-prefix-bio-life-grok` — In word formation, what does the prefix 'bio-' mean?
+- `language-words-vowel-shift-english-grok` — The Great Vowel Shift was a major sound change in which language?
+- `language-words-zamenhof-esperanto-grok` — Who created the constructed language Esperanto?
 - `pop-culture-abbey-road-band-larry` — Which band released the album Abbey Road in 1969?
+- `pop-culture-aladdin-whole-new-world-grok` — Which 1992 animated film features the song 'A Whole New World'?
+- `pop-culture-citizen-kane-welles-grok` — Who directed the 1941 film Citizen Kane?
+- `pop-culture-dark-side-pink-floyd-grok` — Which band released the 1973 album The Dark Side of the Moon?
+- `pop-culture-jurassic-park-spielberg-grok` — Who directed the 1993 film Jurassic Park?
 - `pop-culture-king-of-pop-larry` — Which singer was known as the 'King of Pop'?
+- `pop-culture-lawrence-otoole-role-grok` — Who played T. E. Lawrence in the 1962 film Lawrence of Arabia?
+- `pop-culture-may-the-force-series-grok` — The line 'May the Force be with you' is associated with which film series?
 - `pop-culture-psycho-score-composer-larry` — Who composed the score for the 1960 film Psycho, including the famous shrieking strings of the shower scene?
+- `pop-culture-samurai-magnificent-seven-grok` — Which Akira Kurosawa film was remade as the 1960 Western The Magnificent Seven?
+- `pop-culture-satisfaction-rolling-stones-grok` — Which band released the 1965 song '(I Can't Get No) Satisfaction'?
 - `pop-culture-simpsons-hometown-larry` — In The Simpsons, what is the name of the town where the Simpson family lives?
 - `pop-culture-titanic-jack-actor-larry` — Who played Jack Dawson in the 1997 film Titanic?
+- `pop-culture-twilight-zone-serling-grok` — Who created the television series The Twilight Zone?
+- `pop-culture-wings-first-oscar-grok` — Which film won the first Academy Award for Best Picture?
+- `science-nature-boyle-pressure-volume-grok` — Which gas law says that pressure is inversely proportional to volume when temperature and the amount of gas are held constant?
+- `science-nature-diamond-mohs-top-grok` — Which is the hardest natural mineral on the Mohs scale?
+- `science-nature-diploid-chromosome-number-grok` — How many chromosomes does a typical human body cell have?
+- `science-nature-family-rank-above-grok` — In the standard Linnaean ranks, which rank comes immediately above family?
+- `science-nature-gold-symbol-au-grok` — What is the chemical symbol for gold?
 - `science-nature-higgs-boson-larry` — Which particle, proposed in 1964, was confirmed by experiments at CERN in 2012?
+- `science-nature-mercury-nearest-sun-grok` — Which planet is closest to the Sun?
+- `science-nature-nitrogen-dry-atmosphere-grok` — About what share of Earth's dry atmosphere is nitrogen?
+- `science-nature-pancreas-makes-insulin-grok` — Which organ produces the hormone insulin?
+- `science-nature-photosynthesis-carbon-dioxide-grok` — Which gas do plants take in from the air for photosynthesis?
 - `science-nature-powerhouse-of-the-cell-larry` — Which organelle is known as the powerhouse of the cell?
+- `science-nature-skin-vitamin-d-grok` — Which vitamin does human skin produce when exposed to sunlight?
 - `science-nature-speed-of-light-larry` — About how fast does light travel in a vacuum?
 - `science-nature-tallest-land-animal-larry` — Which is the tallest land animal?
 - `science-nature-water-formula-larry` — What is the chemical formula for water?
+- `sports-games-athens-1896-host-grok` — In which country were the first modern Olympic Games held, in 1896?
+- `sports-games-basketball-on-court-grok` — How many players does one basketball team have on the court at a time?
 - `sports-games-chess-notation-n-larry` — In algebraic chess notation, which piece is represented by the letter N?
 - `sports-games-chess-origin-india-larry` — Chess developed from the earlier game chaturanga, which originated in which country?
+- `sports-games-golf-standard-holes-grok` — How many holes are in a standard round of golf?
+- `sports-games-hockey-puck-sport-grok` — Which of these sports is played with a puck?
+- `sports-games-marathon-race-distance-grok` — What is the official distance of a marathon?
 - `sports-games-olympic-rings-count-larry` — How many rings appear on the Olympic flag?
+- `sports-games-queen-pawn-value-grok` — In the common chess teaching scale of piece values, which piece is valued at nine pawns?
 - `sports-games-soccer-team-size-larry` — How many players does a football (soccer) team field at the start of a match?
 - `sports-games-tennis-zero-love-larry` — In tennis, what word is used for a score of zero?
+- `sports-games-touchdown-point-value-grok` — In American football, how many points is a touchdown worth before any conversion?
+- `sports-games-tour-france-1903-grok` — In which year was the first Tour de France held?
+- `sports-games-uruguay-1930-cup-grok` — Which country won the first FIFA World Cup, in 1930?
+- `sports-games-wimbledon-london-site-grok` — The Wimbledon tennis championships are held in which city?
+- `technology-binary-ten-value-grok` — What is the decimal value of the binary number 1010?
 - `technology-bits-in-a-byte-larry` — How many bits are in a byte?
+- `technology-cpu-expansion-grok` — What does the abbreviation CPU stand for?
+- `technology-firefox-is-browser-grok` — Which of these is a web browser?
 - `technology-first-programmer-larry` — Who is generally regarded as the first computer programmer, for work published in the 1840s?
+- `technology-hopper-a0-system-grok` — Who developed the A-0 system, an early compiler, in 1952?
+- `technology-iphone-debut-firm-grok` — Which company introduced the iPhone in 2007?
+- `technology-ipv4-octet-count-grok` — A standard IPv4 address is written as how many decimal numbers separated by dots?
 - `technology-lifo-stack-larry` — Which data structure stores and retrieves items in last-in, first-out (LIFO) order?
+- `technology-osi-network-layer-grok` — In the OSI model, which layer is layer 3 and is responsible for routing?
+- `technology-python-comedy-namesake-grok` — The programming language Python is named after which comedy troupe?
 - `technology-quicksort-pivot-larry` — Which sorting algorithm repeatedly partitions an array around a pivot element, with average-case performance of O(n log n)?
+- `technology-rsa-adleman-name-grok` — The RSA cryptosystem is named for Rivest, Shamir, and which third inventor?
+- `technology-terabyte-biggest-unit-grok` — Which of these units of digital storage is the largest?
 - `technology-world-wide-web-larry` — What does 'WWW' stand for in a web address?
 - `world-everyday-autumnal-equinox-month-larry` — In the Northern Hemisphere, the autumnal equinox falls in which month?
+- `world-everyday-barometer-air-pressure-grok` — Which instrument measures atmospheric pressure?
+- `world-everyday-common-year-february-grok` — Which month has exactly 28 days in a common year?
+- `world-everyday-count-of-dozen-grok` — A dozen of something is how many?
 - `world-everyday-european-paper-size-larry` — What is the standard office paper size used in most of Europe?
+- `world-everyday-gregorian-civil-calendar-grok` — Which calendar is the civil calendar used internationally?
+- `world-everyday-heraldic-gules-red-grok` — In heraldry, which color is the tincture called 'gules'?
+- `world-everyday-leap-year-length-grok` — How many days are in a leap year?
 - `world-everyday-metre-original-definition-larry` — Which unit of length was originally defined in the 1790s as one ten-millionth of the distance from the North Pole to the Equator?
 - `world-everyday-minutes-in-three-hours-larry` — How many minutes are there in three hours?
+- `world-everyday-numeric-score-twenty-grok` — As a number, a score equals how many?
+- `world-everyday-roman-letter-l-grok` — In Roman numerals, what number does the letter L stand for?
 - `world-everyday-silver-anniversary-larry` — A silver wedding anniversary marks how many years of marriage?
+- `world-everyday-subtractive-paint-mix-grok` — Mixing blue and yellow paint produces which color?
+- `world-everyday-zodiac-rat-first-grok` — In the traditional Chinese zodiac, which animal comes first in the twelve-year cycle?

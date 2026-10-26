@@ -33,22 +33,22 @@ review first, attest second).
 
 ## Pool status
 
-*As of the antigravity merge, 2026-10-25: **70 of 300** toward the
+*As of the grok merge, 2026-10-26: **170 of 300** toward the
 launch floor.*
 
 | Category | In pool | Floor | d1 / d2 / d3 |
 |----------|--------:|------:|--------------|
-| geography | 25 | 30 | 10 / 9 / 6 |
-| history | 5 | 30 | 2 / 2 / 1 |
-| science-nature | 5 | 30 | 2 / 2 / 1 |
-| technology | 5 | 30 | 2 / 2 / 1 |
-| arts-literature | 5 | 30 | 2 / 2 / 1 |
-| pop-culture | 5 | 30 | 2 / 2 / 1 |
-| sports-games | 5 | 30 | 2 / 2 / 1 |
-| food-drink | 5 | 30 | 2 / 2 / 1 |
-| language-words | 5 | 30 | 2 / 2 / 1 |
-| world-everyday | 5 | 30 | 2 / 2 / 1 |
-| **Total** | **70** | **300** | **28 / 27 / 15** |
+| geography | 35 | 30 | 14 / 13 / 8 |
+| history | 15 | 30 | 6 / 6 / 3 |
+| science-nature | 15 | 30 | 6 / 6 / 3 |
+| technology | 15 | 30 | 6 / 6 / 3 |
+| arts-literature | 15 | 30 | 6 / 6 / 3 |
+| pop-culture | 15 | 30 | 6 / 6 / 3 |
+| sports-games | 15 | 30 | 6 / 6 / 3 |
+| food-drink | 15 | 30 | 6 / 6 / 3 |
+| language-words | 15 | 30 | 6 / 6 / 3 |
+| world-everyday | 15 | 30 | 6 / 6 / 3 |
+| **Total** | **170** | **300** | **68 / 67 / 35** |
 
 ## Contributors
 
@@ -56,6 +56,7 @@ launch floor.*
 |-------------|-------|-------|------:|--------|
 | Larry (Matthew's agent) | 2026-10-25, by Matthew directly in chat (endorsed with the bank design) | All 10 categories, 5 each (id tag `larry`) | 50 | **Received, reviewed, and banked** 2026-10-25 — the seed set; see Received below. |
 | antigravity | 2026-10-25, via the generation prompt Larry drafted for Matthew (geography slice) | Geography, 20 (id tag `antigravity`) | 20 | **Received, reviewed, and banked** 2026-10-25 — see Received below. |
+| Grok | 2026-10-26, delivered as trivia-repo PR #1 at Matthew's direction | All 10 categories, 10 each (id tag `grok`) | 100 | **Received, reviewed, and banked** 2026-10-26, with one correction in review — see Received below. |
 
 ## Received
 
@@ -107,6 +108,32 @@ launch floor.*
   not bundled into a contribution push — future generation prompts
   will say so explicitly.
 
+- **Grok — 100 questions, 2026-10-26:**
+  `content/contributions/grok-100.json` (all 10 categories × 10;
+  per category 4 × difficulty 1, 4 × difficulty 2, 2 × difficulty
+  3; ids `<category>-<slug>-grok`), delivered as PR #1 in this
+  repository, merged as `9a2fa566` with the bank merge expressly
+  left to review. Review by Larry (four independent chunk passes
+  plus adjudication): validator PASS, 0 warnings (set answer key
+  30/30/20/20); all 100 questions fact-checked — 99 clean as
+  received (0 factual errors, 0 index errors, no duplicates
+  against the pool or within the set, no false side claims in
+  explanations; difficulty placement honest). **One correction in
+  review:** `history-hannibal-punic-crossing-grok` listed
+  "Hasdrubal Barca" as a distractor, but Hasdrubal also crossed
+  the Alps with elephants, in 207 BCE during the same war — a
+  genuine two-answer trap. The banked copy replaces that choice
+  with "Hamilcar Barca" (Hannibal's father; First Punic War, never
+  crossed the Alps); the keyed answer, its position, and the
+  explanation are unchanged. The correction is applied to both the
+  contribution file and the banked copy, so the validator's
+  provenance-identity rule (contribution and bank copies of an id
+  must be identical) still holds; the as-received original remains
+  in git history at `9a2fa566` (PR #1). **All 100 banked 2026-10-26
+  (pool 70 → 170; geography 25 → 35, passing its floor — the
+  floor is not a cap; every other category 5 → 15);
+  do-not-duplicate list regenerated (170 facts).**
+
 ## Notes
 
 - `content/starter.json` (6 questions, format `/1`) is the module's
@@ -115,9 +142,12 @@ launch floor.*
 - Invited ≠ committed: a slice counts as allocated only when a
   contributor accepts it, and as received only when the JSON arrives
   and passes validation.
-- Outstanding to the launch floor: 230 questions (geography 5; all
-  other categories 25 each), unallocated. The assignment template
-  is `docs/question-bank/GENERATION-PROMPT.md`. A 180-question
+- Outstanding to the launch floor: every non-geography category
+  needs 15 more to reach its 30 floor (135 slots); the pool as a
+  whole sits 130 below the 300 total because geography is 5 over
+  its floor. The assignment template is
+  `docs/question-bank/GENERATION-PROMPT.md`. A 180-question
   assignment covering the nine non-geography categories (20 each)
-  was drafted for Matthew on 2026-10-25 but had not been handed out
-  as of this entry.
+  was drafted for Matthew on 2026-10-25; Grok's 100 (10 per
+  category) landed first, so that draft's counts are stale — trim
+  it to 15 per category before handing it out.

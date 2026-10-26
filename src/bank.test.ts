@@ -14,16 +14,16 @@ import {
  * reviewed contribution is merged, update both together.
  */
 const LEDGER_POOL: Record<TriviaCategory, number> = {
-  geography: 25,
-  history: 5,
-  "science-nature": 5,
-  technology: 5,
-  "arts-literature": 5,
-  "pop-culture": 5,
-  "sports-games": 5,
-  "food-drink": 5,
-  "language-words": 5,
-  "world-everyday": 5,
+  geography: 35,
+  history: 15,
+  "science-nature": 15,
+  technology: 15,
+  "arts-literature": 15,
+  "pop-culture": 15,
+  "sports-games": 15,
+  "food-drink": 15,
+  "language-words": 15,
+  "world-everyday": 15,
 };
 
 const pool = JSON.parse(
