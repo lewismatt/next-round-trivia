@@ -75,6 +75,286 @@
       "difficulty": 3
     },
     {
+      "id": "geography-mount-everest-range-antigravity",
+      "prompt": "In which mountain range does Mount Everest stand?",
+      "choices": [
+        "The Himalayas",
+        "The Andes",
+        "The Alps",
+        "The Rockies"
+      ],
+      "correctChoice": 0,
+      "explanation": "Mount Everest rises in the Mahalangur Himal sub-range of the Himalayas on the border between Nepal and China.",
+      "category": "geography",
+      "difficulty": 1
+    },
+    {
+      "id": "geography-nile-empty-sea-antigravity",
+      "prompt": "Into which body of water does the Nile River empty?",
+      "choices": [
+        "The Red Sea",
+        "The Mediterranean Sea",
+        "The Arabian Sea",
+        "The Indian Ocean"
+      ],
+      "correctChoice": 1,
+      "explanation": "The Nile flows northward through northeastern Africa and forms a wide delta where it empties into the Mediterranean Sea.",
+      "category": "geography",
+      "difficulty": 1
+    },
+    {
+      "id": "geography-amazon-rainforest-continent-antigravity",
+      "prompt": "On which continent is the Amazon rainforest located?",
+      "choices": [
+        "Africa",
+        "Asia",
+        "South America",
+        "Australia"
+      ],
+      "correctChoice": 2,
+      "explanation": "The Amazon rainforest spans the Amazon basin of South America, with the largest share located within Brazil.",
+      "category": "geography",
+      "difficulty": 1
+    },
+    {
+      "id": "geography-english-channel-countries-antigravity",
+      "prompt": "The English Channel separates Great Britain from which mainland European country?",
+      "choices": [
+        "Spain",
+        "Germany",
+        "Portugal",
+        "France"
+      ],
+      "correctChoice": 3,
+      "explanation": "The English Channel is the arm of the Atlantic Ocean that separates southern England from northern France.",
+      "category": "geography",
+      "difficulty": 1
+    },
+    {
+      "id": "geography-equator-zero-latitude-antigravity",
+      "prompt": "Which imaginary line circles the Earth at zero degrees latitude?",
+      "choices": [
+        "The Equator",
+        "The Prime Meridian",
+        "The Tropic of Cancer",
+        "The Arctic Circle"
+      ],
+      "correctChoice": 0,
+      "explanation": "The Equator is defined as zero degrees latitude, dividing the Earth into the Northern and Southern Hemispheres, whereas the Prime Meridian marks zero degrees longitude.",
+      "category": "geography",
+      "difficulty": 1
+    },
+    {
+      "id": "geography-grand-canyon-state-antigravity",
+      "prompt": "In which US state is the Grand Canyon located?",
+      "choices": [
+        "Utah",
+        "Arizona",
+        "Nevada",
+        "Colorado"
+      ],
+      "correctChoice": 1,
+      "explanation": "Carved by the Colorado River, the Grand Canyon lies entirely within northern Arizona.",
+      "category": "geography",
+      "difficulty": 1
+    },
+    {
+      "id": "geography-great-barrier-reef-coast-antigravity",
+      "prompt": "The Great Barrier Reef lies in the Coral Sea off the northeastern coast of which country?",
+      "choices": [
+        "New Zealand",
+        "Indonesia",
+        "Australia",
+        "Fiji"
+      ],
+      "correctChoice": 2,
+      "explanation": "The Great Barrier Reef stretches for more than 2,300 kilometres off the coast of Queensland, Australia.",
+      "category": "geography",
+      "difficulty": 1
+    },
+    {
+      "id": "geography-sicily-mediterranean-island-antigravity",
+      "prompt": "The Mediterranean island of Sicily is part of which country?",
+      "choices": [
+        "Greece",
+        "Spain",
+        "France",
+        "Italy"
+      ],
+      "correctChoice": 3,
+      "explanation": "Sicily is the largest island in the Mediterranean Sea and is an autonomous region of Italy, separated from the Italian mainland by the Strait of Messina.",
+      "category": "geography",
+      "difficulty": 1
+    },
+    {
+      "id": "geography-kilimanjaro-tanzania-peak-antigravity",
+      "prompt": "Mount Kilimanjaro, the highest peak in Africa, is located in which country?",
+      "choices": [
+        "Tanzania",
+        "Kenya",
+        "Uganda",
+        "Ethiopia"
+      ],
+      "correctChoice": 0,
+      "explanation": "Mount Kilimanjaro is a dormant stratovolcano in northeastern Tanzania, near its northern border with Kenya.",
+      "category": "geography",
+      "difficulty": 2
+    },
+    {
+      "id": "geography-panama-canal-oceans-antigravity",
+      "prompt": "Which two oceans are connected by the Panama Canal?",
+      "choices": [
+        "Atlantic and Indian",
+        "Atlantic and Pacific",
+        "Pacific and Indian",
+        "Atlantic and Arctic"
+      ],
+      "correctChoice": 1,
+      "explanation": "Cutting across the Isthmus of Panama, the Panama Canal links the Atlantic Ocean (via the Caribbean Sea) with the Pacific Ocean.",
+      "category": "geography",
+      "difficulty": 2
+    },
+    {
+      "id": "geography-iberian-peninsula-nations-antigravity",
+      "prompt": "Spain and Portugal occupy nearly all of which European peninsula?",
+      "choices": [
+        "The Balkan Peninsula",
+        "The Apennine Peninsula",
+        "The Iberian Peninsula",
+        "The Jutland Peninsula"
+      ],
+      "correctChoice": 2,
+      "explanation": "The Iberian Peninsula in southwestern Europe is divided primarily between Spain and Portugal, along with Andorra and Gibraltar.",
+      "category": "geography",
+      "difficulty": 2
+    },
+    {
+      "id": "geography-lake-baikal-siberia-depth-antigravity",
+      "prompt": "Which is the deepest lake in the world?",
+      "choices": [
+        "Lake Tanganyika",
+        "Lake Superior",
+        "Lake Victoria",
+        "Lake Baikal"
+      ],
+      "correctChoice": 3,
+      "explanation": "Lake Baikal, a rift lake in southern Siberia, reaches a depth of about 1,642 metres, making it the deepest lake on Earth; Lake Tanganyika is the second deepest.",
+      "category": "geography",
+      "difficulty": 2
+    },
+    {
+      "id": "geography-andorra-pyrenees-neighbors-antigravity",
+      "prompt": "The microstate of Andorra lies in the Pyrenees mountains between which two countries?",
+      "choices": [
+        "France and Spain",
+        "Spain and Portugal",
+        "France and Italy",
+        "Switzerland and Austria"
+      ],
+      "correctChoice": 0,
+      "explanation": "Andorra is a landlocked principality in the eastern Pyrenees bordered exclusively by France to the north and Spain to the south.",
+      "category": "geography",
+      "difficulty": 2
+    },
+    {
+      "id": "geography-mariana-trench-ocean-basin-antigravity",
+      "prompt": "In which ocean is the Mariana Trench, the deepest known part of the world's oceans, located?",
+      "choices": [
+        "The Atlantic Ocean",
+        "The Pacific Ocean",
+        "The Indian Ocean",
+        "The Southern Ocean"
+      ],
+      "correctChoice": 1,
+      "explanation": "The Mariana Trench lies in the western Pacific Ocean east of the Mariana Islands, reaching its greatest depth at the Challenger Deep.",
+      "category": "geography",
+      "difficulty": 2
+    },
+    {
+      "id": "geography-angel-falls-venezuela-drop-antigravity",
+      "prompt": "Angel Falls, the world's highest terrestrial waterfall, is located in which South American country?",
+      "choices": [
+        "Brazil",
+        "Colombia",
+        "Venezuela",
+        "Peru"
+      ],
+      "correctChoice": 2,
+      "explanation": "Angel Falls in Canaima National Park, Venezuela, has a total height of 979 metres (including an 807-metre main plunge) from the Auyán-tepui tabletop mountain.",
+      "category": "geography",
+      "difficulty": 2
+    },
+    {
+      "id": "geography-lesotho-enclave-surrounded-antigravity",
+      "prompt": "Which sovereign country is an enclave completely surrounded by South Africa?",
+      "choices": [
+        "Eswatini",
+        "Botswana",
+        "Malawi",
+        "Lesotho"
+      ],
+      "correctChoice": 3,
+      "explanation": "The Kingdom of Lesotho is entirely encircled by South Africa; Eswatini borders both South Africa and Mozambique.",
+      "category": "geography",
+      "difficulty": 3
+    },
+    {
+      "id": "geography-volga-river-caspian-mouth-antigravity",
+      "prompt": "Into which landlocked body of water does the Volga, the longest river in Europe, empty?",
+      "choices": [
+        "The Caspian Sea",
+        "The Black Sea",
+        "The Aral Sea",
+        "The Sea of Azov"
+      ],
+      "correctChoice": 0,
+      "explanation": "The Volga flows southward across Russia into the endorheic Caspian Sea; the Don empties into the Sea of Azov and the Danube and Dnieper into the Black Sea.",
+      "category": "geography",
+      "difficulty": 3
+    },
+    {
+      "id": "geography-shared-island-borneo-three-states-antigravity",
+      "prompt": "Which island in Maritime Southeast Asia is politically divided among Indonesia, Malaysia, and Brunei?",
+      "choices": [
+        "Sumatra",
+        "Borneo",
+        "Sulawesi",
+        "New Guinea"
+      ],
+      "correctChoice": 1,
+      "explanation": "Borneo is divided among three sovereign countries: Indonesian Kalimantan in the south and centre, the Malaysian states of Sabah and Sarawak in the north, and the Sultanate of Brunei.",
+      "category": "geography",
+      "difficulty": 3
+    },
+    {
+      "id": "geography-double-landlocked-uzbekistan-liechtenstein-antigravity",
+      "prompt": "Along with Liechtenstein, which Central Asian republic is one of the world's only two doubly landlocked countries?",
+      "choices": [
+        "Kazakhstan",
+        "Kyrgyzstan",
+        "Uzbekistan",
+        "Tajikistan"
+      ],
+      "correctChoice": 2,
+      "explanation": "Uzbekistan is bordered only by five other landlocked countries (Kazakhstan, Kyrgyzstan, Tajikistan, Afghanistan, and Turkmenistan), making it doubly landlocked.",
+      "category": "geography",
+      "difficulty": 3
+    },
+    {
+      "id": "geography-drake-passage-cape-horn-antigravity",
+      "prompt": "Which body of water lies between Cape Horn at the tip of South America and the South Shetland Islands of Antarctica?",
+      "choices": [
+        "The Mozambique Channel",
+        "The Denmark Strait",
+        "The Davis Strait",
+        "The Drake Passage"
+      ],
+      "correctChoice": 3,
+      "explanation": "The Drake Passage connects the southwestern Atlantic (Scotia Sea) with the southeastern Pacific and separates the southern tip of South America from Antarctica.",
+      "category": "geography",
+      "difficulty": 3
+    },
+    {
       "id": "history-first-us-president-larry",
       "prompt": "Who was the first President of the United States?",
       "choices": [

@@ -6,7 +6,7 @@
 
 Every fact already in the pool is listed below, one line per question (id — prompt). A new contribution must not ask the same fact again, even reworded: if your question's fact appears here, pick a different fact. Same event, different fact (which king vs which year) is acceptable; same fact, new wording is not.
 
-**50 questions in the pool.**
+**70 questions in the pool.**
 
 - `arts-literature-call-me-ishmael-larry` — Which novel opens with the words 'Call me Ishmael'?
 - `arts-literature-goldberg-variations-larry` — Which composer wrote the Goldberg Variations for keyboard?
@@ -18,11 +18,31 @@ Every fact already in the pool is listed below, one line per question (id — pr
 - `food-drink-risotto-rice-larry` — Which variety of rice is traditionally used to make risotto?
 - `food-drink-saffron-flower-larry` — Saffron, among the most expensive spices by weight, is harvested from which flower?
 - `food-drink-sushi-origin-country-larry` — Sushi is a traditional dish that originated in which country?
+- `geography-amazon-rainforest-continent-antigravity` — On which continent is the Amazon rainforest located?
+- `geography-andorra-pyrenees-neighbors-antigravity` — The microstate of Andorra lies in the Pyrenees mountains between which two countries?
+- `geography-angel-falls-venezuela-drop-antigravity` — Angel Falls, the world's highest terrestrial waterfall, is located in which South American country?
 - `geography-capital-of-japan-larry` — What is the capital city of Japan?
 - `geography-danube-capital-vienna-larry` — Which of these capital cities stands on the River Danube?
+- `geography-double-landlocked-uzbekistan-liechtenstein-antigravity` — Along with Liechtenstein, which Central Asian republic is one of the world's only two doubly landlocked countries?
+- `geography-drake-passage-cape-horn-antigravity` — Which body of water lies between Cape Horn at the tip of South America and the South Shetland Islands of Antarctica?
+- `geography-english-channel-countries-antigravity` — The English Channel separates Great Britain from which mainland European country?
+- `geography-equator-zero-latitude-antigravity` — Which imaginary line circles the Earth at zero degrees latitude?
+- `geography-grand-canyon-state-antigravity` — In which US state is the Grand Canyon located?
+- `geography-great-barrier-reef-coast-antigravity` — The Great Barrier Reef lies in the Coral Sea off the northeastern coast of which country?
+- `geography-iberian-peninsula-nations-antigravity` — Spain and Portugal occupy nearly all of which European peninsula?
+- `geography-kilimanjaro-tanzania-peak-antigravity` — Mount Kilimanjaro, the highest peak in Africa, is located in which country?
+- `geography-lake-baikal-siberia-depth-antigravity` — Which is the deepest lake in the world?
 - `geography-largest-african-country-larry` — Which is the largest country in Africa by land area?
 - `geography-largest-hot-desert-larry` — Which is the largest hot desert in the world?
+- `geography-lesotho-enclave-surrounded-antigravity` — Which sovereign country is an enclave completely surrounded by South Africa?
+- `geography-mariana-trench-ocean-basin-antigravity` — In which ocean is the Mariana Trench, the deepest known part of the world's oceans, located?
+- `geography-mount-everest-range-antigravity` — In which mountain range does Mount Everest stand?
+- `geography-nile-empty-sea-antigravity` — Into which body of water does the Nile River empty?
+- `geography-panama-canal-oceans-antigravity` — Which two oceans are connected by the Panama Canal?
+- `geography-shared-island-borneo-three-states-antigravity` — Which island in Maritime Southeast Asia is politically divided among Indonesia, Malaysia, and Brunei?
+- `geography-sicily-mediterranean-island-antigravity` — The Mediterranean island of Sicily is part of which country?
 - `geography-strait-of-malacca-larry` — Which strait separates Peninsular Malaysia from the Indonesian island of Sumatra?
+- `geography-volga-river-caspian-mouth-antigravity` — Into which landlocked body of water does the Volga, the longest river in Europe, empty?
 - `history-first-us-president-larry` — Who was the first President of the United States?
 - `history-gutenberg-printing-press-larry` — Who is credited with developing the movable-type printing press in Europe around 1440?
 - `history-magna-carta-king-john-larry` — Which English king sealed Magna Carta in 1215?

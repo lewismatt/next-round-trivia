@@ -14,7 +14,7 @@ import {
  * reviewed contribution is merged, update both together.
  */
 const LEDGER_POOL: Record<TriviaCategory, number> = {
-  geography: 5,
+  geography: 25,
   history: 5,
   "science-nature": 5,
   technology: 5,

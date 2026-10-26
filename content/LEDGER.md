@@ -33,12 +33,12 @@ review first, attest second).
 
 ## Pool status
 
-*As of the seed merge, 2026-10-25: **50 of 300** toward the launch
-floor.*
+*As of the antigravity merge, 2026-10-25: **70 of 300** toward the
+launch floor.*
 
 | Category | In pool | Floor | d1 / d2 / d3 |
 |----------|--------:|------:|--------------|
-| geography | 5 | 30 | 2 / 2 / 1 |
+| geography | 25 | 30 | 10 / 9 / 6 |
 | history | 5 | 30 | 2 / 2 / 1 |
 | science-nature | 5 | 30 | 2 / 2 / 1 |
 | technology | 5 | 30 | 2 / 2 / 1 |
@@ -48,13 +48,14 @@ floor.*
 | food-drink | 5 | 30 | 2 / 2 / 1 |
 | language-words | 5 | 30 | 2 / 2 / 1 |
 | world-everyday | 5 | 30 | 2 / 2 / 1 |
-| **Total** | **50** | **300** | **20 / 20 / 10** |
+| **Total** | **70** | **300** | **28 / 27 / 15** |
 
 ## Contributors
 
 | Contributor | Asked | Slice | Count | Status |
 |-------------|-------|-------|------:|--------|
 | Larry (Matthew's agent) | 2026-10-25, by Matthew directly in chat (endorsed with the bank design) | All 10 categories, 5 each (id tag `larry`) | 50 | **Received, reviewed, and banked** 2026-10-25 — the seed set; see Received below. |
+| antigravity | 2026-10-25, via the generation prompt Larry drafted for Matthew (geography slice) | Geography, 20 (id tag `antigravity`) | 20 | **Received, reviewed, and banked** 2026-10-25 — see Received below. |
 
 ## Received
 
@@ -80,6 +81,32 @@ floor.*
   `content/bank.json` 2026-10-25 (pool 0 → 50); do-not-duplicate
   list regenerated (50 facts).**
 
+- **antigravity — 20 questions, 2026-10-25:**
+  `content/contributions/antigravity-20.json` (geography × 20;
+  8 × difficulty 1, 7 × difficulty 2, 5 × difficulty 3; ids
+  `geography-<slug>-antigravity`). The set was pushed directly to
+  the repository (commit `681fd922`, by the contributor's bot
+  account) rather than returned as a file — the contribution landed
+  in the drop zone in the correct shape and nothing entered the
+  bank unreviewed. Review by Larry: validator PASS, 0 warnings
+  (answer key a perfect 5/5/5/5 across positions 0–3); all 20
+  questions fact-checked — 0 factual errors, 0 `correctChoice`
+  index errors, no duplicates against the pool, no two-answer
+  traps (the Angel Falls prompt's "terrestrial" qualifier and the
+  Iberian Peninsula's "nearly all" were checked explicitly);
+  difficulty placement honest. **All 20 banked with no corrections,
+  2026-10-25 (pool 50 → 70; geography 5 → 25); do-not-duplicate
+  list regenerated (70 facts).** Note: the same commit also amended
+  `AGENTS.md` and `docs/question-bank/BRIEF.md` with self-review
+  guidance (verify the key against the explanation, strip giveaway
+  hints, qualify superlatives, vary question templates, ask for the
+  contributor tag if the prompt carries a placeholder). The
+  guidance's substance was reviewed and is sound; Matthew ruled
+  2026-10-25 that the edits stand. For the record: process and spec
+  changes should normally arrive as a proposal for the reviewer,
+  not bundled into a contribution push — future generation prompts
+  will say so explicitly.
+
 ## Notes
 
 - `content/starter.json` (6 questions, format `/1`) is the module's
@@ -88,6 +115,9 @@ floor.*
 - Invited ≠ committed: a slice counts as allocated only when a
   contributor accepts it, and as received only when the JSON arrives
   and passes validation.
-- Outstanding to the launch floor: 250 questions (25 per category),
-  unallocated. The assignment template is
-  `docs/question-bank/GENERATION-PROMPT.md`.
+- Outstanding to the launch floor: 230 questions (geography 5; all
+  other categories 25 each), unallocated. The assignment template
+  is `docs/question-bank/GENERATION-PROMPT.md`. A 180-question
+  assignment covering the nine non-geography categories (20 each)
+  was drafted for Matthew on 2026-10-25 but had not been handed out
+  as of this entry.
