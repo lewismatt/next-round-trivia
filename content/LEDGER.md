@@ -22,33 +22,33 @@ the pool file is `content/bank.json`.*
 
 ## Pool model
 
-The pool is an **open pool** with a **launch floor of 300** questions
-(10 categories × 30; per category 12 × difficulty 1, 10 × difficulty
-2, 8 × difficulty 3). The floor is not a cap: matches draw a seeded
-shuffle from however many reviewed questions exist, and the pool
-keeps growing as contributions are reviewed in. The review gate is
-the binding constraint. Bank format: `next-round.trivia/2`, CC0-1.0,
-attribution claims no human attestation (Matthew is the human gate;
-review first, attest second).
+The pool is an **open pool with no size cap and no completion
+target** (Matthew's ruling, 2026-10-26; the original 300-question
+launch floor was a bootstrap goal and is now historical). Matches
+draw a seeded shuffle from however many reviewed questions exist,
+and the pool keeps growing as contributions are reviewed in — no
+category ever fills up or closes. The review gate is the binding
+constraint. Bank format: `next-round.trivia/2`, CC0-1.0, attribution
+claims no human attestation (Matthew is the human gate; review
+first, attest second).
 
 ## Pool status
 
-*As of the grok merge, 2026-10-26: **170 of 300** toward the
-launch floor.*
+*As of the grok merge, 2026-10-26: **170 questions** in the pool.*
 
-| Category | In pool | Floor | d1 / d2 / d3 |
-|----------|--------:|------:|--------------|
-| geography | 35 | 30 | 14 / 13 / 8 |
-| history | 15 | 30 | 6 / 6 / 3 |
-| science-nature | 15 | 30 | 6 / 6 / 3 |
-| technology | 15 | 30 | 6 / 6 / 3 |
-| arts-literature | 15 | 30 | 6 / 6 / 3 |
-| pop-culture | 15 | 30 | 6 / 6 / 3 |
-| sports-games | 15 | 30 | 6 / 6 / 3 |
-| food-drink | 15 | 30 | 6 / 6 / 3 |
-| language-words | 15 | 30 | 6 / 6 / 3 |
-| world-everyday | 15 | 30 | 6 / 6 / 3 |
-| **Total** | **170** | **300** | **68 / 67 / 35** |
+| Category | In pool | d1 / d2 / d3 |
+|----------|--------:|--------------|
+| geography | 35 | 14 / 13 / 8 |
+| history | 15 | 6 / 6 / 3 |
+| science-nature | 15 | 6 / 6 / 3 |
+| technology | 15 | 6 / 6 / 3 |
+| arts-literature | 15 | 6 / 6 / 3 |
+| pop-culture | 15 | 6 / 6 / 3 |
+| sports-games | 15 | 6 / 6 / 3 |
+| food-drink | 15 | 6 / 6 / 3 |
+| language-words | 15 | 6 / 6 / 3 |
+| world-everyday | 15 | 6 / 6 / 3 |
+| **Total** | **170** | **68 / 67 / 35** |
 
 ## Contributors
 
@@ -130,24 +130,20 @@ launch floor.*
   provenance-identity rule (contribution and bank copies of an id
   must be identical) still holds; the as-received original remains
   in git history at `9a2fa566` (PR #1). **All 100 banked 2026-10-26
-  (pool 70 → 170; geography 25 → 35, passing its floor — the
-  floor is not a cap; every other category 5 → 15);
+  (pool 70 → 170; geography 25 → 35; every other category 5 → 15);
   do-not-duplicate list regenerated (170 facts).**
 
 ## Notes
 
 - `content/starter.json` (6 questions, format `/1`) is the module's
   original starter bank and a test fixture. It is **not** part of
-  this pool and does not count toward the floor.
+  this pool and does not count toward its size.
 - Invited ≠ committed: a slice counts as allocated only when a
   contributor accepts it, and as received only when the JSON arrives
   and passes validation.
-- Outstanding to the launch floor: every non-geography category
-  needs 15 more to reach its 30 floor (135 slots); the pool as a
-  whole sits 130 below the 300 total because geography is 5 over
-  its floor. The assignment template is
-  `docs/question-bank/GENERATION-PROMPT.md`. A 180-question
-  assignment covering the nine non-geography categories (20 each)
-  was drafted for Matthew on 2026-10-25; Grok's 100 (10 per
-  category) landed first, so that draft's counts are stale — trim
-  it to 15 per category before handing it out.
+- Pool growth is open-ended (Matthew, 2026-10-26): there is no
+  outstanding quota and no category ever closes. For balance, the
+  nine non-geography categories (15 each) are the thin side versus
+  geography (35), so new slices should favor them — but any
+  category may be contributed at any time, in any quantity. The
+  assignment template is `docs/question-bank/GENERATION-PROMPT.md`.

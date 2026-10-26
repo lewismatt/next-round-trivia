@@ -7,12 +7,17 @@ question bank for **Trivia**, a Next Round game module. The module
 ships the import contract (format `next-round.trivia/2`); this bank is
 the shared pool that matches draw from.*
 
-***Pool model:** the 300-question figure below is the bank's **launch
-floor**, not a fixed total. The bank is an open pool: matches draw a
-seeded shuffle from however many reviewed questions exist, and the
-bank keeps growing past 300 as contributions are reviewed in. Read
-every "300" and every exact per-category count below as "at least
-this many".*
+***Pool model (ruled by Matthew, 2026-10-26):** the bank is an open
+pool with **no size cap and no completion target**. It launched with
+a 300-question floor as a bootstrap goal; that figure is now
+historical. Matches draw a seeded shuffle from however many reviewed
+questions exist, and the pool keeps growing for as long as quality
+contributions keep arriving — there is no number at which generation
+stops, and no category ever fills up or closes. Balance across
+categories is a soft aim: prefer the thinner categories when you
+have a choice (current counts live in `content/LEDGER.md`, "Pool
+status"), never an allocation or a quota. The binding constraint is
+the review gate, not any count.*
 
 ## The deliverable
 
@@ -68,12 +73,17 @@ If a question fits two categories, file it under the one a player
 would expect from the prompt's subject, and note the alternative in
 your delivery message if it matters.
 
-## Counts and the launch floor
+## Counts and balance
 
-| Per category | Questions | Difficulty split |
-|--------------|----------:|------------------|
-| × 10 categories | 30 each | 12 × difficulty 1, 10 × difficulty 2, 8 × difficulty 3 |
-| **Total** | **300** | |
+There is no required total — not per set, not per category, not for
+the pool. Sets of any size are welcome (recent sets run 20–100
+questions). Within each category group in your set, aim for a
+difficulty spread near **40% difficulty 1, 40% difficulty 2, 20%
+difficulty 3** unless your assignment says otherwise; that ratio
+keeps the drawn mix playable at every level. If your assignment does
+not fix the categories, check the pool status in
+`content/LEDGER.md` and favor the categories with the fewest
+questions — depth there helps balance most.
 
 Coordination rule: ids end with your contributor tag
 (`…-<your-tag>`), so two contributors working different slices can

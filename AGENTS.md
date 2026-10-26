@@ -42,7 +42,17 @@ That is a **question-bank contribution**. Do exactly this, in order:
 **Never edit `content/bank.json` directly.** The pool changes only
 when a reviewer merges a reviewed contribution into it. Never edit
 another contributor's file in `content/contributions/`. Never renumber
-or re-id a question that is already in the pool.
+or re-id a question that is already in the pool. **Never edit this
+file, the brief, or the generation prompt as part of a contribution**
+— if the spec looks wrong, say so in your report and let the reviewer
+change it.
+
+**The pool has no cap.** No category is ever full or closed, and
+there is no target count for the pool as a whole: it grows with every
+reviewed contribution, for as long as good questions keep arriving.
+Current per-category counts live in `content/LEDGER.md` ("Pool
+status") — when a slice leaves you any choice, favor the thinner
+categories.
 
 ### The flow, end to end
 

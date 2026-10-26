@@ -124,10 +124,10 @@ that don't want the game simply never bundle it.
 ## Question bank
 
 The production question pool lives at `content/bank.json` (format
-`next-round.trivia/2`, CC0-1.0) and currently holds **170 questions**
-toward a launch floor of **300** — the floor is a minimum, not a cap:
-the pool is an open pool that keeps growing as reviewed contributions
-land, and matches draw from however much reviewed depth exists.
+`next-round.trivia/2`, CC0-1.0) and currently holds **170 questions**.
+The pool has **no size cap and no completion target**: it keeps
+growing as reviewed contributions land, and matches draw from
+however much reviewed depth exists.
 
 Every question belongs to one of ten categories — Geography, History,
 Science & Nature, Technology, Arts & Literature, Pop Culture,

@@ -3,7 +3,7 @@
 """Validate Trivia question-bank files (format next-round.trivia/2).
 
 Usage:
-  python3 tools/validate-bank.py <file.json> [more-files...] [--floor]
+  python3 tools/validate-bank.py <file.json> [more-files...]
       [--emit-dnd [path]]
 
   The first file is the target. Any further files are cross-checked
@@ -14,12 +14,10 @@ Usage:
   content in two files is a banked provenance copy (contribution file
   vs pool), not a collision, and is ignored by the cross-file checks.
 
-  --floor          compare the target against the launch floor
-                   (30 per category, difficulty split 12/10/8) and warn
-                   where it is short. Also implied when the target is
-                   named bank.json. Shortfalls are warnings, never
-                   failures: the pool is an open pool that grows past
-                   the floor as reviewed contributions land.
+  There is deliberately no size, floor, or quota check: the pool
+  is an open pool with no cap (Matthew, 2026-10-26), so this tool
+  validates integrity only, never how many questions exist.
+
   --emit-dnd       after a passing validation, regenerate the
                    do-not-duplicate list from the target file
                    (default: docs/question-bank/DO-NOT-DUPLICATE.md).
@@ -77,8 +75,6 @@ QUESTION_FIELDS = {
 }
 BANK_FIELDS = {"format", "title", "attribution", "license", "questions"}
 ID_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
-FLOOR_PER_CATEGORY = 30
-FLOOR_DIFFICULTY = {1: 12, 2: 10, 3: 8}
 
 
 def norm(s):
@@ -202,21 +198,6 @@ def validate_questions(path, qs, fails, warns):
     return counts
 
 
-def check_floor(counts, warns):
-    for cat in CATEGORIES:
-        got = sum(counts.get(cat, {}).values())
-        if got < FLOOR_PER_CATEGORY:
-            warns.append(
-                f"pool floor: category {cat} has {got}/{FLOOR_PER_CATEGORY} questions"
-            )
-        for diff, want in FLOOR_DIFFICULTY.items():
-            have = counts.get(cat, {}).get(diff, 0)
-            if have < want:
-                warns.append(
-                    f"pool floor: category {cat} difficulty {diff} has {have}/{want}"
-                )
-
-
 def emit_dnd(pool_path, qs, out_path):
     lines = [
         "<!-- SPDX-License-Identifier: Apache-2.0 -->",
@@ -246,7 +227,6 @@ def emit_dnd(pool_path, qs, out_path):
 
 def main(argv):
     args = [a for a in argv if not a.startswith("--")]
-    floor = "--floor" in argv
     dnd_path = None
     if "--emit-dnd" in argv:
         i = argv.index("--emit-dnd")
@@ -330,8 +310,6 @@ def main(argv):
             f"  {cat}: {sum(c.values())} "
             f"(d1 {c.get(1, 0)} / d2 {c.get(2, 0)} / d3 {c.get(3, 0)})"
         )
-    if floor or Path(target).name == "bank.json":
-        check_floor(counts, warns)
 
     for w in warns:
         print(f"WARN: {w}")

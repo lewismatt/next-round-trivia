@@ -4,7 +4,10 @@
 
 *For the operator: copy everything inside the fence, fill the four
 slots, and hand it to any agent with access to this repository. The
-agent needs no other context — the repository tells it the rest.*
+agent needs no other context — the repository tells it the rest.
+The pool has no cap and no completion target (Matthew, 2026-10-26):
+slice sizes are purely the operator's choice, and nothing is owed
+to any floor or quota.*
 
 ```
 You are contributing questions to the Trivia question bank in this
@@ -15,6 +18,12 @@ ASSIGNMENT
 - Difficulty mix: {DIFFICULTY_MIX}  (e.g. "per category: 2 x difficulty 1, 2 x difficulty 2, 1 x difficulty 3")
 - Count: {COUNT} questions total
 - Your contributor tag: {TAG}
+
+The pool you are adding to has no size cap and no completion
+target — your set is pure added depth, and no category is full or
+closed. If your assignment leaves any choice of category to you,
+check the pool status in content/LEDGER.md and favor the categories
+with the fewest questions.
 
 BEFORE YOU WRITE ANYTHING
 1. Read AGENTS.md at the repository root.
@@ -46,6 +55,10 @@ DO NOT
 - Do not edit content/bank.json, content/LEDGER.md, or
   docs/question-bank/DO-NOT-DUPLICATE.md — merging, ledger entries,
   and list regeneration are the reviewer's steps.
+- Do not edit AGENTS.md, docs/question-bank/BRIEF.md, or this prompt
+  template. If the spec looks wrong or incomplete, say so in your
+  report — spec changes are the reviewer's/operator's to make,
+  never part of a contribution.
 - Do not edit or delete anyone else's file in content/contributions/.
 - Do not publish or push anything anywhere.
 
