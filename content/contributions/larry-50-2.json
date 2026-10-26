@@ -1,0 +1,708 @@
+{
+  "format": "next-round.trivia/2",
+  "title": "Trivia contribution — larry",
+  "attribution": "Original agent-drafted questions for Next Round, released under CC0-1.0; no human attestation claimed.",
+  "license": "CC0-1.0",
+  "questions": [
+    {
+      "id": "geography-capital-of-egypt-larry",
+      "prompt": "What is the capital city of Egypt?",
+      "choices": [
+        "Cairo",
+        "Alexandria",
+        "Giza",
+        "Luxor"
+      ],
+      "correctChoice": 0,
+      "explanation": "Cairo is Egypt's capital and largest city. Alexandria is its main Mediterranean port, while Giza and Luxor are known for ancient monuments.",
+      "category": "geography",
+      "difficulty": 1
+    },
+    {
+      "id": "geography-largest-island-greenland-larry",
+      "prompt": "Which is the largest island in the world?",
+      "choices": [
+        "New Guinea",
+        "Borneo",
+        "Greenland",
+        "Madagascar"
+      ],
+      "correctChoice": 2,
+      "explanation": "Greenland is the world's largest island, covering about 2.16 million square kilometres. Australia is larger still, but it is classified as a continent rather than an island.",
+      "category": "geography",
+      "difficulty": 1
+    },
+    {
+      "id": "geography-abyssinia-ethiopia-larry",
+      "prompt": "Which modern African country was historically known as Abyssinia?",
+      "choices": [
+        "Sudan",
+        "Ethiopia",
+        "Eritrea",
+        "Somalia"
+      ],
+      "correctChoice": 1,
+      "explanation": "Abyssinia was the name long used for the Ethiopian Empire, and Ethiopia remains the standard modern answer. Eritrea was once an Italian colony carved from the empire's northern coast, but it was never Abyssinia itself.",
+      "category": "geography",
+      "difficulty": 2
+    },
+    {
+      "id": "geography-gibraltar-morocco-larry",
+      "prompt": "The Strait of Gibraltar separates Spain from which African country?",
+      "choices": [
+        "Algeria",
+        "Tunisia",
+        "Libya",
+        "Morocco"
+      ],
+      "correctChoice": 3,
+      "explanation": "Morocco lies directly across the Strait of Gibraltar from Spain, at points only about 14 kilometres away. Algeria's coast begins farther east along the Mediterranean.",
+      "category": "geography",
+      "difficulty": 2
+    },
+    {
+      "id": "geography-canada-longest-coastline-larry",
+      "prompt": "Which country has the longest total coastline in the world?",
+      "choices": [
+        "Russia",
+        "Indonesia",
+        "Canada",
+        "Australia"
+      ],
+      "correctChoice": 2,
+      "explanation": "Canada's mainland coast plus its vast Arctic archipelago give it by far the longest coastline of any country — over 200,000 kilometres, several times that of any other nation.",
+      "category": "geography",
+      "difficulty": 3
+    },
+    {
+      "id": "history-first-moon-landing-year-larry",
+      "prompt": "In which year did humans first land on the Moon?",
+      "choices": [
+        "1961",
+        "1965",
+        "1969",
+        "1972"
+      ],
+      "correctChoice": 2,
+      "explanation": "Apollo 11 landed on the Moon in July 1969, when Neil Armstrong and Buzz Aldrin walked on its surface. The year 1972 saw the final Apollo landing, not the first.",
+      "category": "history",
+      "difficulty": 1
+    },
+    {
+      "id": "history-olympics-ancient-greece-larry",
+      "prompt": "The ancient Olympic Games were held in honour of the gods of which civilization?",
+      "choices": [
+        "Rome",
+        "Greece",
+        "Egypt",
+        "Phoenicia"
+      ],
+      "correctChoice": 1,
+      "explanation": "The ancient Games began in 776 BCE at Olympia in Greece, held in honour of Zeus. Rome later conquered Greece and continued the festival, but it did not originate it.",
+      "category": "history",
+      "difficulty": 1
+    },
+    {
+      "id": "history-berlin-wall-fell-larry",
+      "prompt": "In which year did the Berlin Wall fall?",
+      "choices": [
+        "1979",
+        "1985",
+        "1991",
+        "1989"
+      ],
+      "correctChoice": 3,
+      "explanation": "The Berlin Wall fell in November 1989, opening the border between East and West Berlin. The year 1991 marks the dissolution of the Soviet Union, a separate later event.",
+      "category": "history",
+      "difficulty": 2
+    },
+    {
+      "id": "history-hundred-years-war-france-larry",
+      "prompt": "The Hundred Years' War was fought between England and which other kingdom?",
+      "choices": [
+        "France",
+        "Spain",
+        "Scotland",
+        "Portugal"
+      ],
+      "correctChoice": 0,
+      "explanation": "The Hundred Years' War (1337–1453) was fought between England and France, largely over English claims to the French throne. Scotland was France's ally in the conflict, not England's opponent in chief.",
+      "category": "history",
+      "difficulty": 2
+    },
+    {
+      "id": "history-treaty-of-paris-1783-larry",
+      "prompt": "Which treaty formally ended the American Revolutionary War in 1783?",
+      "choices": [
+        "Treaty of Versailles",
+        "Treaty of Paris",
+        "Treaty of Utrecht",
+        "Treaty of Ghent"
+      ],
+      "correctChoice": 1,
+      "explanation": "The Treaty of Paris of 1783 ended the Revolutionary War, with Britain recognising the independence of the United States. The Treaty of Ghent came later, ending the War of 1812.",
+      "category": "history",
+      "difficulty": 3
+    },
+    {
+      "id": "science-nature-iron-symbol-fe-larry",
+      "prompt": "What is the chemical symbol for iron?",
+      "choices": [
+        "Ir",
+        "Fe",
+        "In",
+        "Pb"
+      ],
+      "correctChoice": 1,
+      "explanation": "Iron's symbol Fe comes from ferrum, its Latin name. Pb is the symbol for lead, from the Latin plumbum.",
+      "category": "science-nature",
+      "difficulty": 1
+    },
+    {
+      "id": "science-nature-spider-eight-legs-larry",
+      "prompt": "How many legs does a spider have?",
+      "choices": [
+        "Four",
+        "Six",
+        "Ten",
+        "Eight"
+      ],
+      "correctChoice": 3,
+      "explanation": "Spiders are arachnids, and all arachnids have eight legs. Six legs is the count for insects, which spiders are not.",
+      "category": "science-nature",
+      "difficulty": 1
+    },
+    {
+      "id": "science-nature-sun-main-gas-hydrogen-larry",
+      "prompt": "Which gas makes up most of the Sun?",
+      "choices": [
+        "Helium",
+        "Oxygen",
+        "Hydrogen",
+        "Nitrogen"
+      ],
+      "correctChoice": 2,
+      "explanation": "Hydrogen accounts for roughly three-quarters of the Sun's mass. Helium is the next most abundant element, at about a quarter.",
+      "category": "science-nature",
+      "difficulty": 2
+    },
+    {
+      "id": "science-nature-liver-makes-bile-larry",
+      "prompt": "Which organ in the human body produces bile?",
+      "choices": [
+        "Liver",
+        "Gallbladder",
+        "Pancreas",
+        "Spleen"
+      ],
+      "correctChoice": 0,
+      "explanation": "The liver produces bile, which aids fat digestion. The gallbladder only stores and concentrates bile made by the liver; it does not produce it.",
+      "category": "science-nature",
+      "difficulty": 2
+    },
+    {
+      "id": "science-nature-tungsten-highest-melting-metal-larry",
+      "prompt": "Which metal has the highest melting point of any metal?",
+      "choices": [
+        "Platinum",
+        "Iron",
+        "Tungsten",
+        "Titanium"
+      ],
+      "correctChoice": 2,
+      "explanation": "Tungsten melts at about 3,422 °C, the highest melting point of any metal — which is why it was long used for lamp filaments. Iron, by comparison, melts at about 1,538 °C.",
+      "category": "science-nature",
+      "difficulty": 3
+    },
+    {
+      "id": "technology-ram-expansion-larry",
+      "prompt": "In computing, what does RAM stand for?",
+      "choices": [
+        "Random Access Memory",
+        "Rapid Action Module",
+        "Read And Modify",
+        "Remote Access Machine"
+      ],
+      "correctChoice": 0,
+      "explanation": "RAM is Random Access Memory, the working memory a computer uses for data it is actively processing — any part of it can be read in roughly the same time, hence 'random access'.",
+      "category": "technology",
+      "difficulty": 1
+    },
+    {
+      "id": "technology-paste-shortcut-ctrl-v-larry",
+      "prompt": "Which keyboard shortcut is the standard 'paste' command on Windows?",
+      "choices": [
+        "Ctrl+C",
+        "Ctrl+V",
+        "Ctrl+X",
+        "Ctrl+Z"
+      ],
+      "correctChoice": 1,
+      "explanation": "Ctrl+V pastes what you have copied or cut. Ctrl+C copies, Ctrl+X cuts, and Ctrl+Z undoes the last action.",
+      "category": "technology",
+      "difficulty": 1
+    },
+    {
+      "id": "technology-berners-lee-web-inventor-larry",
+      "prompt": "Who is credited with inventing the World Wide Web?",
+      "choices": [
+        "Alan Turing",
+        "Vint Cerf",
+        "Steve Jobs",
+        "Tim Berners-Lee"
+      ],
+      "correctChoice": 3,
+      "explanation": "Tim Berners-Lee proposed the World Wide Web at CERN in 1989 and built the first website and browser. Vint Cerf co-designed TCP/IP, the internet's underlying protocols — a different invention from the Web that runs on top of it.",
+      "category": "technology",
+      "difficulty": 2
+    },
+    {
+      "id": "technology-eniac-completed-decade-larry",
+      "prompt": "In which decade was ENIAC, an early general-purpose electronic computer, completed?",
+      "choices": [
+        "1930s",
+        "1940s",
+        "1950s",
+        "1960s"
+      ],
+      "correctChoice": 1,
+      "explanation": "ENIAC was completed in 1945 and publicly announced in 1946. It filled a room and was programmed by physically rewiring it.",
+      "category": "technology",
+      "difficulty": 2
+    },
+    {
+      "id": "technology-java-originally-oak-larry",
+      "prompt": "Which programming language was originally developed under the name 'Oak'?",
+      "choices": [
+        "Python",
+        "Ruby",
+        "Java",
+        "C#"
+      ],
+      "correctChoice": 2,
+      "explanation": "James Gosling's team at Sun Microsystems first called the language Oak, after a tree outside his office; it was renamed Java before its public release in the mid-1990s.",
+      "category": "technology",
+      "difficulty": 3
+    },
+    {
+      "id": "arts-literature-carroll-alice-author-larry",
+      "prompt": "Who wrote the children's novel Alice's Adventures in Wonderland?",
+      "choices": [
+        "Charles Dickens",
+        "Lewis Carroll",
+        "J. M. Barrie",
+        "C. S. Lewis"
+      ],
+      "correctChoice": 1,
+      "explanation": "Lewis Carroll, the pen name of Charles Dodgson, published Alice's Adventures in Wonderland in 1865. C. S. Lewis wrote the Narnia books almost a century later.",
+      "category": "arts-literature",
+      "difficulty": 1
+    },
+    {
+      "id": "arts-literature-piano-88-keys-larry",
+      "prompt": "How many keys does a standard piano have?",
+      "choices": [
+        "76",
+        "84",
+        "88",
+        "96"
+      ],
+      "correctChoice": 2,
+      "explanation": "A standard piano has 88 keys: 52 white keys and 36 black keys, spanning just over seven octaves.",
+      "category": "arts-literature",
+      "difficulty": 1
+    },
+    {
+      "id": "arts-literature-dali-persistence-memory-larry",
+      "prompt": "Which artist painted The Persistence of Memory, the famous image of melting pocket watches?",
+      "choices": [
+        "Salvador Dalí",
+        "René Magritte",
+        "Pablo Picasso",
+        "Joan Miró"
+      ],
+      "correctChoice": 0,
+      "explanation": "Salvador Dalí painted The Persistence of Memory in 1931; its limp, melting watches are the signature image of his surrealism. Magritte, a fellow surrealist, is known instead for bowler-hatted men and the pipe inscribed 'Ceci n'est pas une pipe.'",
+      "category": "arts-literature",
+      "difficulty": 2
+    },
+    {
+      "id": "arts-literature-fitzgerald-great-gatsby-larry",
+      "prompt": "Who wrote the 1925 novel The Great Gatsby?",
+      "choices": [
+        "Ernest Hemingway",
+        "William Faulkner",
+        "John Steinbeck",
+        "F. Scott Fitzgerald"
+      ],
+      "correctChoice": 3,
+      "explanation": "F. Scott Fitzgerald published The Great Gatsby in 1925, drawing on the wealthy Long Island social world he knew. Hemingway was his friend and rival, but his own Jazz Age novel was The Sun Also Rises (1926).",
+      "category": "arts-literature",
+      "difficulty": 2
+    },
+    {
+      "id": "arts-literature-rossini-barber-seville-larry",
+      "prompt": "Which composer wrote the comic opera The Barber of Seville, first performed in 1816?",
+      "choices": [
+        "Giuseppe Verdi",
+        "Gioachino Rossini",
+        "Gaetano Donizetti",
+        "Vincenzo Bellini"
+      ],
+      "correctChoice": 1,
+      "explanation": "Gioachino Rossini composed The Barber of Seville in 1816, when he was only 23; its overture and Figaro's aria 'Largo al factotum' remain opera staples. Verdi's fame rests on later, mostly serious operas such as Rigoletto and La Traviata.",
+      "category": "arts-literature",
+      "difficulty": 3
+    },
+    {
+      "id": "pop-culture-queen-bohemian-rhapsody-larry",
+      "prompt": "Which band recorded the 1975 song 'Bohemian Rhapsody'?",
+      "choices": [
+        "ABBA",
+        "Led Zeppelin",
+        "Queen",
+        "The Who"
+      ],
+      "correctChoice": 2,
+      "explanation": "Queen released 'Bohemian Rhapsody', written by Freddie Mercury, on the 1975 album A Night at the Opera. The Who also made rock-opera-style records, but this song is Queen's.",
+      "category": "pop-culture",
+      "difficulty": 1
+    },
+    {
+      "id": "pop-culture-toy-story-woody-larry",
+      "prompt": "In the film Toy Story, who is the cowboy sheriff doll who leads Andy's toys?",
+      "choices": [
+        "Woody",
+        "Buzz Lightyear",
+        "Slinky Dog",
+        "Mr. Potato Head"
+      ],
+      "correctChoice": 0,
+      "explanation": "Woody, voiced by Tom Hanks, is the pull-string cowboy sheriff and the leader of Andy's toys. Buzz Lightyear, his rival turned friend, is a space ranger figure, not a cowboy.",
+      "category": "pop-culture",
+      "difficulty": 1
+    },
+    {
+      "id": "pop-culture-harrison-ford-indiana-jones-larry",
+      "prompt": "Which actor played Indiana Jones in Raiders of the Lost Ark (1981)?",
+      "choices": [
+        "Tom Selleck",
+        "Sean Connery",
+        "Mark Hamill",
+        "Harrison Ford"
+      ],
+      "correctChoice": 3,
+      "explanation": "Harrison Ford played the archaeologist-adventurer Indiana Jones, beginning with Raiders of the Lost Ark in 1981. Sean Connery appeared later in the series, as Jones's father in the third film.",
+      "category": "pop-culture",
+      "difficulty": 2
+    },
+    {
+      "id": "pop-culture-friends-central-perk-larry",
+      "prompt": "In which television sitcom do the main characters hang out at a coffee house called Central Perk?",
+      "choices": [
+        "Seinfeld",
+        "Friends",
+        "Frasier",
+        "Cheers"
+      ],
+      "correctChoice": 1,
+      "explanation": "Central Perk, where Rachel once worked as a waitress, is the regular meeting place in Friends (1994–2004). The Seinfeld characters gather at Monk's Café instead.",
+      "category": "pop-culture",
+      "difficulty": 2
+    },
+    {
+      "id": "pop-culture-snow-white-first-disney-feature-larry",
+      "prompt": "What was Walt Disney's first full-length animated feature film, released in 1937?",
+      "choices": [
+        "Pinocchio",
+        "Fantasia",
+        "Snow White and the Seven Dwarfs",
+        "Dumbo"
+      ],
+      "correctChoice": 2,
+      "explanation": "Snow White and the Seven Dwarfs premiered in 1937 as Disney's first full-length animated feature. Pinocchio and Fantasia followed in 1940, and Dumbo in 1941.",
+      "category": "pop-culture",
+      "difficulty": 3
+    },
+    {
+      "id": "sports-games-baseball-team-on-field-larry",
+      "prompt": "How many players does a baseball team have on the field at one time while playing defense?",
+      "choices": [
+        "Seven",
+        "Nine",
+        "Ten",
+        "Eleven"
+      ],
+      "correctChoice": 1,
+      "explanation": "A baseball defense fields nine players: a pitcher, a catcher, four infielders, and three outfielders. Soccer's eleven is a different sport's count.",
+      "category": "sports-games",
+      "difficulty": 1
+    },
+    {
+      "id": "sports-games-bowling-strike-term-larry",
+      "prompt": "In ten-pin bowling, what is it called when a player knocks down all ten pins with the first ball of a frame?",
+      "choices": [
+        "Spare",
+        "Turkey",
+        "Split",
+        "Strike"
+      ],
+      "correctChoice": 3,
+      "explanation": "Clearing all ten pins with the first ball is a strike. A spare requires two balls, and a turkey is three strikes in a row.",
+      "category": "sports-games",
+      "difficulty": 1
+    },
+    {
+      "id": "sports-games-football-first-down-yards-larry",
+      "prompt": "In American football, how many yards must the offense gain within four downs to earn a new set of downs?",
+      "choices": [
+        "5 yards",
+        "10 yards",
+        "15 yards",
+        "20 yards"
+      ],
+      "correctChoice": 1,
+      "explanation": "The offense must advance the ball at least 10 yards in four downs to earn a first down and keep possession.",
+      "category": "sports-games",
+      "difficulty": 2
+    },
+    {
+      "id": "sports-games-brazil-world-cup-titles-larry",
+      "prompt": "Which national team has won the FIFA World Cup the most times?",
+      "choices": [
+        "Germany",
+        "Argentina",
+        "Brazil",
+        "Italy"
+      ],
+      "correctChoice": 2,
+      "explanation": "Brazil has won the World Cup five times (1958, 1962, 1970, 1994, 2002), more than any other country; Germany and Italy have four each.",
+      "category": "sports-games",
+      "difficulty": 2
+    },
+    {
+      "id": "sports-games-chess-en-passant-larry",
+      "prompt": "In chess, what is the name of the special capture in which a pawn takes an opposing pawn that has just advanced two squares from its starting position, as if it had moved only one?",
+      "choices": [
+        "En passant",
+        "Castling",
+        "Zugzwang",
+        "Fianchetto"
+      ],
+      "correctChoice": 0,
+      "explanation": "That capture is en passant, French for 'in passing'. Castling moves the king and a rook, and a fianchetto develops a bishop onto a long diagonal.",
+      "category": "sports-games",
+      "difficulty": 3
+    },
+    {
+      "id": "food-drink-coleslaw-cabbage-base-larry",
+      "prompt": "Which vegetable is the main ingredient in a traditional coleslaw?",
+      "choices": [
+        "Cabbage",
+        "Lettuce",
+        "Carrot",
+        "Celery"
+      ],
+      "correctChoice": 0,
+      "explanation": "Coleslaw is built on shredded cabbage dressed with mayonnaise or vinaigrette; carrot is often mixed in, but cabbage is the base. The name comes from the Dutch 'koolsla', meaning cabbage salad.",
+      "category": "food-drink",
+      "difficulty": 1
+    },
+    {
+      "id": "food-drink-caprese-basil-herb-larry",
+      "prompt": "Which herb is traditionally layered with tomato and mozzarella in a Caprese salad?",
+      "choices": [
+        "Basil",
+        "Parsley",
+        "Cilantro",
+        "Mint"
+      ],
+      "correctChoice": 0,
+      "explanation": "Fresh basil leaves are the classic herb of the Caprese, matching the red tomato and white mozzarella in the colors of the Italian flag.",
+      "category": "food-drink",
+      "difficulty": 1
+    },
+    {
+      "id": "food-drink-orzo-rice-shaped-pasta-larry",
+      "prompt": "Which pasta is shaped like small grains of rice?",
+      "choices": [
+        "Penne",
+        "Orzo",
+        "Fusilli",
+        "Farfalle"
+      ],
+      "correctChoice": 1,
+      "explanation": "Orzo is a short pasta cut into grains resembling rice, despite being made from wheat. Penne are tubes, fusilli are spirals, and farfalle are bow ties.",
+      "category": "food-drink",
+      "difficulty": 2
+    },
+    {
+      "id": "food-drink-bearnaise-tarragon-herb-larry",
+      "prompt": "Which herb gives a traditional béarnaise sauce its characteristic flavor?",
+      "choices": [
+        "Dill",
+        "Sage",
+        "Thyme",
+        "Tarragon"
+      ],
+      "correctChoice": 3,
+      "explanation": "Béarnaise is a butter and egg-yolk sauce flavored principally with tarragon (often with shallots and chervil), which sets it apart from plain hollandaise.",
+      "category": "food-drink",
+      "difficulty": 2
+    },
+    {
+      "id": "food-drink-chipotle-jalapeno-smoked-larry",
+      "prompt": "A chipotle pepper is traditionally made by smoke-drying which ripe pepper?",
+      "choices": [
+        "Poblano",
+        "Habanero",
+        "Jalapeño",
+        "Serrano"
+      ],
+      "correctChoice": 2,
+      "explanation": "Chipotles are ripe red jalapeños that have been smoked and dried. A dried poblano is called an ancho instead.",
+      "category": "food-drink",
+      "difficulty": 3
+    },
+    {
+      "id": "language-words-question-mark-ending-larry",
+      "prompt": "What punctuation mark is placed at the end of a direct question?",
+      "choices": [
+        "Exclamation mark",
+        "Question mark",
+        "Semicolon",
+        "Apostrophe"
+      ],
+      "correctChoice": 1,
+      "explanation": "A question mark ends a direct question. An exclamation mark instead shows strong feeling or emphasis.",
+      "category": "language-words",
+      "difficulty": 1
+    },
+    {
+      "id": "language-words-synonym-happy-joyful-larry",
+      "prompt": "Which of these words is a synonym for 'happy'?",
+      "choices": [
+        "Gloomy",
+        "Weary",
+        "Joyful",
+        "Timid"
+      ],
+      "correctChoice": 2,
+      "explanation": "Joyful means feeling great happiness, making it a synonym for happy. Gloomy and weary instead suggest sadness and tiredness.",
+      "category": "language-words",
+      "difficulty": 1
+    },
+    {
+      "id": "language-words-noun-names-thing-larry",
+      "prompt": "In English grammar, which part of speech names a person, place, thing, or idea?",
+      "choices": [
+        "Noun",
+        "Verb",
+        "Adverb",
+        "Adjective"
+      ],
+      "correctChoice": 0,
+      "explanation": "A noun names a person, place, thing, or idea. A verb instead expresses an action or a state of being.",
+      "category": "language-words",
+      "difficulty": 2
+    },
+    {
+      "id": "language-words-alphabet-alpha-beta-larry",
+      "prompt": "The English word 'alphabet' comes from the first two letters of which alphabet?",
+      "choices": [
+        "Latin",
+        "Hebrew",
+        "Cyrillic",
+        "Greek"
+      ],
+      "correctChoice": 3,
+      "explanation": "Alphabet combines alpha and beta, the first two letters of the Greek alphabet. The word entered English through Latin but preserves those Greek letter names.",
+      "category": "language-words",
+      "difficulty": 2
+    },
+    {
+      "id": "language-words-pangram-every-letter-larry",
+      "prompt": "What is a sentence that contains every letter of the alphabet at least once called?",
+      "choices": [
+        "Anagram",
+        "Pangram",
+        "Oxymoron",
+        "Homonym"
+      ],
+      "correctChoice": 1,
+      "explanation": "A pangram uses every letter of the alphabet at least once, as in 'The quick brown fox jumps over the lazy dog.' An anagram instead rearranges letters to form a different word or phrase.",
+      "category": "language-words",
+      "difficulty": 3
+    },
+    {
+      "id": "world-everyday-days-in-week-larry",
+      "prompt": "How many days are there in a week?",
+      "choices": [
+        "Five",
+        "Six",
+        "Seven",
+        "Eight"
+      ],
+      "correctChoice": 2,
+      "explanation": "A week consists of seven days, running from Monday through Sunday in most calendar listings. That seven-day cycle is used in the Gregorian calendar and most modern scheduling.",
+      "category": "world-everyday",
+      "difficulty": 1
+    },
+    {
+      "id": "world-everyday-knife-fork-utensil-larry",
+      "prompt": "Which utensil is traditionally paired with a knife for eating a main course in a Western place setting?",
+      "choices": [
+        "Fork",
+        "Spoon",
+        "Ladle",
+        "Spatula"
+      ],
+      "correctChoice": 0,
+      "explanation": "In a standard Western place setting, the fork is placed beside the knife for eating a main course. A spoon is used mainly for soups, liquids, and some desserts.",
+      "category": "world-everyday",
+      "difficulty": 1
+    },
+    {
+      "id": "world-everyday-milliliters-per-liter-larry",
+      "prompt": "How many milliliters are there in one liter?",
+      "choices": [
+        "100",
+        "250",
+        "500",
+        "1,000"
+      ],
+      "correctChoice": 3,
+      "explanation": "The metric prefix milli- means one-thousandth, so one liter equals 1,000 milliliters. A single milliliter is therefore 0.001 of a liter.",
+      "category": "world-everyday",
+      "difficulty": 2
+    },
+    {
+      "id": "world-everyday-japan-remove-shoes-home-larry",
+      "prompt": "Before entering a home in Japan, what are guests traditionally expected to remove?",
+      "choices": [
+        "Gloves",
+        "Hat",
+        "Shoes",
+        "Scarf"
+      ],
+      "correctChoice": 2,
+      "explanation": "Guests in Japan traditionally remove their shoes at the entrance of a home before stepping inside. Indoor slippers are often provided for use once the shoes are off.",
+      "category": "world-everyday",
+      "difficulty": 2
+    },
+    {
+      "id": "world-everyday-celsius-fahrenheit-minus-forty-larry",
+      "prompt": "At what temperature do the Celsius and Fahrenheit scales show the same numerical value?",
+      "choices": [
+        "-20",
+        "-40",
+        "0",
+        "32"
+      ],
+      "correctChoice": 1,
+      "explanation": "At -40, the two scales coincide: -40 degrees Celsius equals -40 degrees Fahrenheit. It is the only temperature where converting between the scales gives the same number.",
+      "category": "world-everyday",
+      "difficulty": 3
+    }
+  ]
+}

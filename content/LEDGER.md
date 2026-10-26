@@ -34,21 +34,22 @@ first, attest second).
 
 ## Pool status
 
-*As of the grok merge, 2026-10-26: **170 questions** in the pool.*
+*As of the larry-50-2 merge, 2026-10-26: **220 questions** in the
+pool.*
 
 | Category | In pool | d1 / d2 / d3 |
 |----------|--------:|--------------|
-| geography | 35 | 14 / 13 / 8 |
-| history | 15 | 6 / 6 / 3 |
-| science-nature | 15 | 6 / 6 / 3 |
-| technology | 15 | 6 / 6 / 3 |
-| arts-literature | 15 | 6 / 6 / 3 |
-| pop-culture | 15 | 6 / 6 / 3 |
-| sports-games | 15 | 6 / 6 / 3 |
-| food-drink | 15 | 6 / 6 / 3 |
-| language-words | 15 | 6 / 6 / 3 |
-| world-everyday | 15 | 6 / 6 / 3 |
-| **Total** | **170** | **68 / 67 / 35** |
+| geography | 40 | 16 / 15 / 9 |
+| history | 20 | 8 / 8 / 4 |
+| science-nature | 20 | 8 / 8 / 4 |
+| technology | 20 | 8 / 8 / 4 |
+| arts-literature | 20 | 8 / 8 / 4 |
+| pop-culture | 20 | 8 / 8 / 4 |
+| sports-games | 20 | 8 / 8 / 4 |
+| food-drink | 20 | 8 / 8 / 4 |
+| language-words | 20 | 8 / 8 / 4 |
+| world-everyday | 20 | 8 / 8 / 4 |
+| **Total** | **220** | **88 / 87 / 45** |
 
 ## Contributors
 
@@ -57,6 +58,7 @@ first, attest second).
 | Larry (Matthew's agent) | 2026-10-25, by Matthew directly in chat (endorsed with the bank design) | All 10 categories, 5 each (id tag `larry`) | 50 | **Received, reviewed, and banked** 2026-10-25 — the seed set; see Received below. |
 | antigravity | 2026-10-25, via the generation prompt Larry drafted for Matthew (geography slice) | Geography, 20 (id tag `antigravity`) | 20 | **Received, reviewed, and banked** 2026-10-25 — see Received below. |
 | Grok | 2026-10-26, delivered as trivia-repo PR #1 at Matthew's direction | All 10 categories, 10 each (id tag `grok`) | 100 | **Received, reviewed, and banked** 2026-10-26, with one correction in review — see Received below. |
+| Larry (second set) | 2026-10-26, at Matthew's direction in chat | All 10 categories, 5 each (id tag `larry`) | 50 | **Authored, reviewed, and banked** 2026-10-26 — see Received below. |
 
 ## Received
 
@@ -132,6 +134,26 @@ first, attest second).
   in git history at `9a2fa566` (PR #1). **All 100 banked 2026-10-26
   (pool 70 → 170; geography 25 → 35; every other category 5 → 15);
   do-not-duplicate list regenerated (170 facts).**
+
+- **Larry (second set) — 50 questions, 2026-10-26:**
+  `content/contributions/larry-50-2.json` (all 10 categories × 5;
+  per category 2 × difficulty 1, 2 × difficulty 2, 1 × difficulty
+  3; ids `<category>-<slug>-larry`), authored by Larry at Matthew's
+  direction. Review by Larry (author's own full read, the same
+  self-review the seed set received): validator PASS; all 50
+  fact-checked — no factual errors, no index errors, no duplicates
+  against the pool or within the set, no false side claims in
+  explanations. **One replacement before banking:** a drafted
+  Danube-mouth question was sound but mis-banded as difficulty 3;
+  it was dropped and replaced with a longest-coastline question
+  (Canada) written for the slot, holding the per-category 2/2/1
+  mix. The validator's single heuristic warning (slug overlap
+  between the new capital-of-Egypt question and the banked
+  capital-of-Japan question) was judged a non-duplicate: different
+  facts, and capital questions are core geography stock. Set answer
+  key 11/15/14/10. **All 50 banked 2026-10-26 (pool 170 → 220;
+  geography 35 → 40; every other category 15 → 20);
+  do-not-duplicate list regenerated (220 facts).**
 
 ## Notes
 

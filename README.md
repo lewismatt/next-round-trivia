@@ -124,7 +124,7 @@ that don't want the game simply never bundle it.
 ## Question bank
 
 The production question pool lives at `content/bank.json` (format
-`next-round.trivia/2`, CC0-1.0) and currently holds **170 questions**.
+`next-round.trivia/2`, CC0-1.0) and currently holds **220 questions**.
 The pool has **no size cap and no completion target**: it keeps
 growing as reviewed contributions land, and matches draw from
 however much reviewed depth exists.
