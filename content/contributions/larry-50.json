@@ -1,0 +1,708 @@
+{
+  "format": "next-round.trivia/2",
+  "title": "Trivia contribution — larry",
+  "attribution": "Original agent-drafted questions for Next Round, released under CC0-1.0; no human attestation claimed.",
+  "license": "CC0-1.0",
+  "questions": [
+    {
+      "id": "geography-capital-of-japan-larry",
+      "prompt": "What is the capital city of Japan?",
+      "choices": [
+        "Kyoto",
+        "Tokyo",
+        "Osaka",
+        "Nagoya"
+      ],
+      "correctChoice": 1,
+      "explanation": "Tokyo has been Japan's capital since 1868; Kyoto was the imperial capital before it.",
+      "category": "geography",
+      "difficulty": 1
+    },
+    {
+      "id": "geography-largest-hot-desert-larry",
+      "prompt": "Which is the largest hot desert in the world?",
+      "choices": [
+        "The Sahara",
+        "The Gobi",
+        "The Mojave",
+        "The Kalahari"
+      ],
+      "correctChoice": 0,
+      "explanation": "The Sahara covers about 9.2 million square kilometres of North Africa. Antarctica is a larger desert overall, but it is a cold desert.",
+      "category": "geography",
+      "difficulty": 1
+    },
+    {
+      "id": "geography-danube-capital-vienna-larry",
+      "prompt": "Which of these capital cities stands on the River Danube?",
+      "choices": [
+        "Prague",
+        "Warsaw",
+        "Vienna",
+        "Berlin"
+      ],
+      "correctChoice": 2,
+      "explanation": "Vienna stands on the Danube. Prague is on the Vltava, Warsaw on the Vistula, and Berlin on the Spree.",
+      "category": "geography",
+      "difficulty": 2
+    },
+    {
+      "id": "geography-largest-african-country-larry",
+      "prompt": "Which is the largest country in Africa by land area?",
+      "choices": [
+        "Sudan",
+        "Democratic Republic of the Congo",
+        "Libya",
+        "Algeria"
+      ],
+      "correctChoice": 3,
+      "explanation": "Algeria covers about 2.38 million square kilometres. Sudan was larger until South Sudan became independent in 2011.",
+      "category": "geography",
+      "difficulty": 2
+    },
+    {
+      "id": "geography-strait-of-malacca-larry",
+      "prompt": "Which strait separates Peninsular Malaysia from the Indonesian island of Sumatra?",
+      "choices": [
+        "Sunda Strait",
+        "Strait of Malacca",
+        "Lombok Strait",
+        "Torres Strait"
+      ],
+      "correctChoice": 1,
+      "explanation": "The Strait of Malacca runs between Malaysia and Sumatra and is one of the world's busiest shipping lanes.",
+      "category": "geography",
+      "difficulty": 3
+    },
+    {
+      "id": "history-first-us-president-larry",
+      "prompt": "Who was the first President of the United States?",
+      "choices": [
+        "Thomas Jefferson",
+        "Abraham Lincoln",
+        "George Washington",
+        "John Adams"
+      ],
+      "correctChoice": 2,
+      "explanation": "George Washington served as the first president, from 1789 to 1797.",
+      "category": "history",
+      "difficulty": 1
+    },
+    {
+      "id": "history-second-world-war-end-larry",
+      "prompt": "In which year did the Second World War end?",
+      "choices": [
+        "1941",
+        "1943",
+        "1944",
+        "1945"
+      ],
+      "correctChoice": 3,
+      "explanation": "The war ended in 1945, with Germany's surrender in May and Japan's in September.",
+      "category": "history",
+      "difficulty": 1
+    },
+    {
+      "id": "history-magna-carta-king-john-larry",
+      "prompt": "Which English king sealed Magna Carta in 1215?",
+      "choices": [
+        "Henry II",
+        "King John",
+        "Richard I",
+        "Edward I"
+      ],
+      "correctChoice": 1,
+      "explanation": "King John sealed Magna Carta at Runnymede in 1215 under pressure from his barons.",
+      "category": "history",
+      "difficulty": 2
+    },
+    {
+      "id": "history-gutenberg-printing-press-larry",
+      "prompt": "Who is credited with developing the movable-type printing press in Europe around 1440?",
+      "choices": [
+        "Johannes Gutenberg",
+        "Leonardo da Vinci",
+        "Isaac Newton",
+        "Galileo Galilei"
+      ],
+      "correctChoice": 0,
+      "explanation": "Johannes Gutenberg's press in Mainz made mass-produced books practical in Europe.",
+      "category": "history",
+      "difficulty": 2
+    },
+    {
+      "id": "history-treaty-of-tordesillas-larry",
+      "prompt": "The Treaty of Tordesillas (1494) divided newly encountered lands outside Europe between which two powers?",
+      "choices": [
+        "England and France",
+        "The Netherlands and Spain",
+        "Spain and Portugal",
+        "Portugal and France"
+      ],
+      "correctChoice": 2,
+      "explanation": "Spain and Portugal agreed on a meridian in the Atlantic: lands to the east went to Portugal, lands to the west to Spain.",
+      "category": "history",
+      "difficulty": 3
+    },
+    {
+      "id": "science-nature-water-formula-larry",
+      "prompt": "What is the chemical formula for water?",
+      "choices": [
+        "CO2",
+        "O2",
+        "H2O",
+        "NaCl"
+      ],
+      "correctChoice": 2,
+      "explanation": "A water molecule is two hydrogen atoms bonded to one oxygen atom.",
+      "category": "science-nature",
+      "difficulty": 1
+    },
+    {
+      "id": "science-nature-tallest-land-animal-larry",
+      "prompt": "Which is the tallest land animal?",
+      "choices": [
+        "African elephant",
+        "Giraffe",
+        "Horse",
+        "Moose"
+      ],
+      "correctChoice": 1,
+      "explanation": "An adult giraffe stands up to about 5.5 metres tall, taller than any other land animal.",
+      "category": "science-nature",
+      "difficulty": 1
+    },
+    {
+      "id": "science-nature-powerhouse-of-the-cell-larry",
+      "prompt": "Which organelle is known as the powerhouse of the cell?",
+      "choices": [
+        "Nucleus",
+        "Ribosome",
+        "Golgi apparatus",
+        "Mitochondrion"
+      ],
+      "correctChoice": 3,
+      "explanation": "Mitochondria produce most of a cell's ATP, its main energy currency.",
+      "category": "science-nature",
+      "difficulty": 2
+    },
+    {
+      "id": "science-nature-speed-of-light-larry",
+      "prompt": "About how fast does light travel in a vacuum?",
+      "choices": [
+        "300,000 kilometres per second",
+        "30,000 kilometres per second",
+        "3,000 kilometres per second",
+        "300 kilometres per second"
+      ],
+      "correctChoice": 0,
+      "explanation": "Light in a vacuum travels at about 299,792 kilometres per second.",
+      "category": "science-nature",
+      "difficulty": 2
+    },
+    {
+      "id": "science-nature-higgs-boson-larry",
+      "prompt": "Which particle, proposed in 1964, was confirmed by experiments at CERN in 2012?",
+      "choices": [
+        "The graviton",
+        "The axion",
+        "The Higgs boson",
+        "The phonon"
+      ],
+      "correctChoice": 2,
+      "explanation": "The ATLAS and CMS experiments at CERN announced the discovery of the Higgs boson in July 2012.",
+      "category": "science-nature",
+      "difficulty": 3
+    },
+    {
+      "id": "technology-world-wide-web-larry",
+      "prompt": "What does 'WWW' stand for in a web address?",
+      "choices": [
+        "World Wide Web",
+        "Wide World Web",
+        "World Web Window",
+        "Web World Wide"
+      ],
+      "correctChoice": 0,
+      "explanation": "WWW is short for World Wide Web, the system of linked pages invented by Tim Berners-Lee.",
+      "category": "technology",
+      "difficulty": 1
+    },
+    {
+      "id": "technology-bits-in-a-byte-larry",
+      "prompt": "How many bits are in a byte?",
+      "choices": [
+        "Four",
+        "Eight",
+        "Sixteen",
+        "Thirty-two"
+      ],
+      "correctChoice": 1,
+      "explanation": "A byte is eight bits, enough to represent 256 different values.",
+      "category": "technology",
+      "difficulty": 1
+    },
+    {
+      "id": "technology-first-programmer-larry",
+      "prompt": "Who is generally regarded as the first computer programmer, for work published in the 1840s?",
+      "choices": [
+        "Charles Babbage",
+        "Alan Turing",
+        "Ada Lovelace",
+        "John von Neumann"
+      ],
+      "correctChoice": 2,
+      "explanation": "Ada Lovelace's notes on Babbage's Analytical Engine included an algorithm for the machine, the first published computer program.",
+      "category": "technology",
+      "difficulty": 2
+    },
+    {
+      "id": "technology-lifo-stack-larry",
+      "prompt": "Which data structure stores and retrieves items in last-in, first-out (LIFO) order?",
+      "choices": [
+        "Queue",
+        "Tree",
+        "Graph",
+        "Stack"
+      ],
+      "correctChoice": 3,
+      "explanation": "A stack adds and removes at the same end. A queue is first-in, first-out instead.",
+      "category": "technology",
+      "difficulty": 2
+    },
+    {
+      "id": "technology-quicksort-pivot-larry",
+      "prompt": "Which sorting algorithm repeatedly partitions an array around a pivot element, with average-case performance of O(n log n)?",
+      "choices": [
+        "Quicksort",
+        "Bubble sort",
+        "Insertion sort",
+        "Selection sort"
+      ],
+      "correctChoice": 0,
+      "explanation": "Quicksort picks a pivot, partitions the array around it, and recurses on each side.",
+      "category": "technology",
+      "difficulty": 3
+    },
+    {
+      "id": "arts-literature-romeo-and-juliet-author-larry",
+      "prompt": "Who wrote the play Romeo and Juliet?",
+      "choices": [
+        "Charles Dickens",
+        "Jane Austen",
+        "Oscar Wilde",
+        "William Shakespeare"
+      ],
+      "correctChoice": 3,
+      "explanation": "William Shakespeare wrote Romeo and Juliet in the 1590s.",
+      "category": "arts-literature",
+      "difficulty": 1
+    },
+    {
+      "id": "arts-literature-mona-lisa-painter-larry",
+      "prompt": "Who painted the Mona Lisa?",
+      "choices": [
+        "Vincent van Gogh",
+        "Pablo Picasso",
+        "Leonardo da Vinci",
+        "Claude Monet"
+      ],
+      "correctChoice": 2,
+      "explanation": "Leonardo da Vinci painted the Mona Lisa in the early 1500s.",
+      "category": "arts-literature",
+      "difficulty": 1
+    },
+    {
+      "id": "arts-literature-call-me-ishmael-larry",
+      "prompt": "Which novel opens with the words 'Call me Ishmael'?",
+      "choices": [
+        "The Great Gatsby",
+        "Moby-Dick",
+        "Treasure Island",
+        "Walden"
+      ],
+      "correctChoice": 1,
+      "explanation": "Herman Melville's Moby-Dick (1851) is narrated by Ishmael, a sailor aboard the Pequod.",
+      "category": "arts-literature",
+      "difficulty": 2
+    },
+    {
+      "id": "arts-literature-odyssey-poet-larry",
+      "prompt": "The epic poem the Odyssey is traditionally attributed to which ancient Greek poet?",
+      "choices": [
+        "Homer",
+        "Virgil",
+        "Sophocles",
+        "Plato"
+      ],
+      "correctChoice": 0,
+      "explanation": "The Odyssey and the Iliad are traditionally attributed to Homer. Virgil wrote the Roman epic the Aeneid.",
+      "category": "arts-literature",
+      "difficulty": 2
+    },
+    {
+      "id": "arts-literature-goldberg-variations-larry",
+      "prompt": "Which composer wrote the Goldberg Variations for keyboard?",
+      "choices": [
+        "George Frideric Handel",
+        "Antonio Vivaldi",
+        "Wolfgang Amadeus Mozart",
+        "Johann Sebastian Bach"
+      ],
+      "correctChoice": 3,
+      "explanation": "Bach's Goldberg Variations, published in 1741, are an aria with thirty variations for harpsichord.",
+      "category": "arts-literature",
+      "difficulty": 3
+    },
+    {
+      "id": "pop-culture-abbey-road-band-larry",
+      "prompt": "Which band released the album Abbey Road in 1969?",
+      "choices": [
+        "The Rolling Stones",
+        "The Beatles",
+        "Led Zeppelin",
+        "Pink Floyd"
+      ],
+      "correctChoice": 1,
+      "explanation": "Abbey Road was the last album the Beatles recorded together, released in September 1969.",
+      "category": "pop-culture",
+      "difficulty": 1
+    },
+    {
+      "id": "pop-culture-titanic-jack-actor-larry",
+      "prompt": "Who played Jack Dawson in the 1997 film Titanic?",
+      "choices": [
+        "Brad Pitt",
+        "Matt Damon",
+        "Tom Cruise",
+        "Leonardo DiCaprio"
+      ],
+      "correctChoice": 3,
+      "explanation": "Leonardo DiCaprio played Jack, opposite Kate Winslet as Rose.",
+      "category": "pop-culture",
+      "difficulty": 1
+    },
+    {
+      "id": "pop-culture-king-of-pop-larry",
+      "prompt": "Which singer was known as the 'King of Pop'?",
+      "choices": [
+        "Prince",
+        "Elvis Presley",
+        "Michael Jackson",
+        "David Bowie"
+      ],
+      "correctChoice": 2,
+      "explanation": "Michael Jackson was dubbed the King of Pop. Elvis Presley was the King of Rock and Roll.",
+      "category": "pop-culture",
+      "difficulty": 2
+    },
+    {
+      "id": "pop-culture-simpsons-hometown-larry",
+      "prompt": "In The Simpsons, what is the name of the town where the Simpson family lives?",
+      "choices": [
+        "Shelbyville",
+        "Springfield",
+        "Quahog",
+        "South Park"
+      ],
+      "correctChoice": 1,
+      "explanation": "The Simpsons live in Springfield; Shelbyville is its rival town.",
+      "category": "pop-culture",
+      "difficulty": 2
+    },
+    {
+      "id": "pop-culture-psycho-score-composer-larry",
+      "prompt": "Who composed the score for the 1960 film Psycho, including the famous shrieking strings of the shower scene?",
+      "choices": [
+        "Bernard Herrmann",
+        "Ennio Morricone",
+        "John Williams",
+        "Alfred Newman"
+      ],
+      "correctChoice": 0,
+      "explanation": "Bernard Herrmann scored several Hitchcock films; Psycho's music uses strings only.",
+      "category": "pop-culture",
+      "difficulty": 3
+    },
+    {
+      "id": "sports-games-soccer-team-size-larry",
+      "prompt": "How many players does a football (soccer) team field at the start of a match?",
+      "choices": [
+        "Eleven",
+        "Nine",
+        "Ten",
+        "Twelve"
+      ],
+      "correctChoice": 0,
+      "explanation": "A soccer team fields eleven players, including the goalkeeper.",
+      "category": "sports-games",
+      "difficulty": 1
+    },
+    {
+      "id": "sports-games-tennis-zero-love-larry",
+      "prompt": "In tennis, what word is used for a score of zero?",
+      "choices": [
+        "Nil",
+        "Duck",
+        "Love",
+        "Blank"
+      ],
+      "correctChoice": 2,
+      "explanation": "A zero score in tennis is called love, as in 'thirty-love'. A duck is a zero in cricket.",
+      "category": "sports-games",
+      "difficulty": 1
+    },
+    {
+      "id": "sports-games-chess-origin-india-larry",
+      "prompt": "Chess developed from the earlier game chaturanga, which originated in which country?",
+      "choices": [
+        "China",
+        "Persia",
+        "Egypt",
+        "India"
+      ],
+      "correctChoice": 3,
+      "explanation": "Chaturanga arose in India around the 6th century; chess then spread westward through Persia.",
+      "category": "sports-games",
+      "difficulty": 2
+    },
+    {
+      "id": "sports-games-olympic-rings-count-larry",
+      "prompt": "How many rings appear on the Olympic flag?",
+      "choices": [
+        "Four",
+        "Five",
+        "Six",
+        "Seven"
+      ],
+      "correctChoice": 1,
+      "explanation": "The Olympic flag bears five interlaced rings, representing the inhabited continents.",
+      "category": "sports-games",
+      "difficulty": 2
+    },
+    {
+      "id": "sports-games-chess-notation-n-larry",
+      "prompt": "In algebraic chess notation, which piece is represented by the letter N?",
+      "choices": [
+        "Knight",
+        "King",
+        "Bishop",
+        "Rook"
+      ],
+      "correctChoice": 0,
+      "explanation": "The knight is written N because K is already used for the king.",
+      "category": "sports-games",
+      "difficulty": 3
+    },
+    {
+      "id": "food-drink-sushi-origin-country-larry",
+      "prompt": "Sushi is a traditional dish that originated in which country?",
+      "choices": [
+        "China",
+        "Thailand",
+        "Japan",
+        "Vietnam"
+      ],
+      "correctChoice": 2,
+      "explanation": "Sushi developed in Japan as seasoned rice served with preserved fish and other toppings.",
+      "category": "food-drink",
+      "difficulty": 1
+    },
+    {
+      "id": "food-drink-guacamole-main-ingredient-larry",
+      "prompt": "What is the main ingredient in guacamole?",
+      "choices": [
+        "Avocado",
+        "Tomato",
+        "Onion",
+        "Sweet pepper"
+      ],
+      "correctChoice": 0,
+      "explanation": "Guacamole is mashed avocado, traditionally with lime, salt, onion, and chilli.",
+      "category": "food-drink",
+      "difficulty": 1
+    },
+    {
+      "id": "food-drink-risotto-rice-larry",
+      "prompt": "Which variety of rice is traditionally used to make risotto?",
+      "choices": [
+        "Basmati",
+        "Arborio",
+        "Jasmine",
+        "Wild rice"
+      ],
+      "correctChoice": 1,
+      "explanation": "Arborio is a short-grain Italian rice whose starch gives risotto its creamy texture.",
+      "category": "food-drink",
+      "difficulty": 2
+    },
+    {
+      "id": "food-drink-saffron-flower-larry",
+      "prompt": "Saffron, among the most expensive spices by weight, is harvested from which flower?",
+      "choices": [
+        "Orchid",
+        "Tulip",
+        "Lily",
+        "Crocus"
+      ],
+      "correctChoice": 3,
+      "explanation": "Saffron is the dried stigma of Crocus sativus; each flower yields only three threads.",
+      "category": "food-drink",
+      "difficulty": 2
+    },
+    {
+      "id": "food-drink-fermentation-yeast-larry",
+      "prompt": "The alcohol in beer and wine is produced by fermentation carried out by which organism?",
+      "choices": [
+        "Bacteria",
+        "Mould",
+        "Yeast",
+        "Algae"
+      ],
+      "correctChoice": 2,
+      "explanation": "Yeast converts sugars into ethanol and carbon dioxide during fermentation.",
+      "category": "food-drink",
+      "difficulty": 3
+    },
+    {
+      "id": "language-words-english-alphabet-letters-larry",
+      "prompt": "How many letters are there in the modern English alphabet?",
+      "choices": [
+        "24",
+        "25",
+        "27",
+        "26"
+      ],
+      "correctChoice": 3,
+      "explanation": "The modern English alphabet has 26 letters, from A to Z.",
+      "category": "language-words",
+      "difficulty": 1
+    },
+    {
+      "id": "language-words-opposite-of-ancient-larry",
+      "prompt": "Which word is the best opposite (antonym) of 'ancient'?",
+      "choices": [
+        "Antique",
+        "Modern",
+        "Archaic",
+        "Old"
+      ],
+      "correctChoice": 1,
+      "explanation": "Ancient means very old; its opposite is modern. Antique and archaic are near-synonyms of ancient.",
+      "category": "language-words",
+      "difficulty": 1
+    },
+    {
+      "id": "language-words-palindrome-term-larry",
+      "prompt": "What is the term for a word or phrase that reads the same forwards and backwards, such as 'level'?",
+      "choices": [
+        "Palindrome",
+        "Anagram",
+        "Homonym",
+        "Acronym"
+      ],
+      "correctChoice": 0,
+      "explanation": "A palindrome reads identically in both directions. An anagram rearranges letters into a different word.",
+      "category": "language-words",
+      "difficulty": 2
+    },
+    {
+      "id": "language-words-most-native-speakers-larry",
+      "prompt": "Which language has the largest number of native speakers?",
+      "choices": [
+        "English",
+        "Hindi",
+        "Mandarin Chinese",
+        "Spanish"
+      ],
+      "correctChoice": 2,
+      "explanation": "Mandarin Chinese has the most native speakers; English has more speakers overall when second-language speakers are counted.",
+      "category": "language-words",
+      "difficulty": 2
+    },
+    {
+      "id": "language-words-carpe-diem-meaning-larry",
+      "prompt": "The Latin phrase 'carpe diem' comes from a poem by Horace. What does it urge the reader to do?",
+      "choices": [
+        "Remember death",
+        "Take your time",
+        "Trust no one",
+        "Seize the day"
+      ],
+      "correctChoice": 3,
+      "explanation": "Carpe diem, from Horace's Odes, literally means 'pluck (seize) the day'. 'Remember death' is memento mori.",
+      "category": "language-words",
+      "difficulty": 3
+    },
+    {
+      "id": "world-everyday-minutes-in-three-hours-larry",
+      "prompt": "How many minutes are there in three hours?",
+      "choices": [
+        "120",
+        "180",
+        "240",
+        "90"
+      ],
+      "correctChoice": 1,
+      "explanation": "Three hours at sixty minutes each is 180 minutes.",
+      "category": "world-everyday",
+      "difficulty": 1
+    },
+    {
+      "id": "world-everyday-silver-anniversary-larry",
+      "prompt": "A silver wedding anniversary marks how many years of marriage?",
+      "choices": [
+        "10 years",
+        "40 years",
+        "25 years",
+        "50 years"
+      ],
+      "correctChoice": 2,
+      "explanation": "The 25th anniversary is silver; the 50th is golden.",
+      "category": "world-everyday",
+      "difficulty": 1
+    },
+    {
+      "id": "world-everyday-autumnal-equinox-month-larry",
+      "prompt": "In the Northern Hemisphere, the autumnal equinox falls in which month?",
+      "choices": [
+        "August",
+        "October",
+        "November",
+        "September"
+      ],
+      "correctChoice": 3,
+      "explanation": "The September equinox, around 22-23 September, marks the start of northern autumn.",
+      "category": "world-everyday",
+      "difficulty": 2
+    },
+    {
+      "id": "world-everyday-european-paper-size-larry",
+      "prompt": "What is the standard office paper size used in most of Europe?",
+      "choices": [
+        "A4",
+        "Letter",
+        "Legal",
+        "A5"
+      ],
+      "correctChoice": 0,
+      "explanation": "A4 (210 x 297 mm) is the standard office size in most of the world outside North America.",
+      "category": "world-everyday",
+      "difficulty": 2
+    },
+    {
+      "id": "world-everyday-metre-original-definition-larry",
+      "prompt": "Which unit of length was originally defined in the 1790s as one ten-millionth of the distance from the North Pole to the Equator?",
+      "choices": [
+        "The kilometre",
+        "The metre",
+        "The mile",
+        "The yard"
+      ],
+      "correctChoice": 1,
+      "explanation": "The French Academy defined the metre from the Earth's meridian; the kilometre is simply a thousand metres.",
+      "category": "world-everyday",
+      "difficulty": 3
+    }
+  ]
+}

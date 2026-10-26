@@ -1,6 +1,6 @@
 {
   "name": "@next-round/game-trivia",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Trivia — a simultaneous-answer quiz game for the Next Round platform.",
   "license": "Apache-2.0",
   "type": "module",

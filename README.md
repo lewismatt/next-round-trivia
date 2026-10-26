@@ -22,13 +22,21 @@ the Cipher and Golden Ladder pattern; the design record is at
   submission.
 - At the deadline, the round closes, scores the answers, and reveals the
   explanation, the correct choice, and all accepted submissions.
-- Settings: `rounds` (1–20, bounded by bank size) and `secondsPerRound`
-  (1–300). Solo supports one player; group supports 2–8.
-- Questions arrive as an importable resource bank (format
-  `next-round.trivia/1`, CC0-1.0): each question has an `id`, a `prompt`,
-  2–8 distinct `choices`, a `correctChoice`, and an `explanation`. The
-  bank is server-private — never copied into a view — and a match pins
-  one immutable bank version.
+- Settings: `rounds` (1–20, bounded by the eligible pool),
+  `secondsPerRound` (1–300), and an optional `category` — when set,
+  the match draws only from that category; when absent, the whole
+  bank is eligible. Solo supports one player; group supports 2–8.
+- Questions arrive as an importable resource bank (CC0-1.0): each
+  question has an `id`, a `prompt`, 2–8 distinct `choices`, a
+  `correctChoice`, and an `explanation`. At match start the server
+  draws the play order by seeded shuffle from the eligible pool and
+  stores it in state, so a match never simply plays the bank's first
+  questions in order. The bank is server-private — never copied into
+  a view — and a match pins one immutable bank version.
+- Bank formats: `next-round.trivia/2` is current — every question
+  also carries a `category` (one of ten) and a `difficulty` (1–3).
+  Format `next-round.trivia/1` banks remain importable, without
+  category data.
 - `content/starter.json` is the original starter bank: six agent-drafted
   factual questions released under CC0-1.0, with that provenance in its
   `attribution`. No human review/attestation is claimed.
@@ -50,8 +58,18 @@ the Cipher and Golden Ladder pattern; the design record is at
   `GameBridge`); it only ever receives the projected view
 - `src/content.test.ts` / `src/server.test.ts` — import and rules tests;
   every transition is schema-validated
+- `src/bank.test.ts` — production pool gate (the pool parses through
+  the importer, and its per-category counts match the ledger)
+- `content/bank.json` — the production question pool (format `/2`)
+- `content/contributions/` — contribution drop zone and provenance
+  record (see its README)
+- `content/LEDGER.md` — the question pool contributions ledger
 - `content/starter.json` — original CC0-1.0 starter question bank
 - `docs/trivia-design.md` — the Sprint T design and evidence record
+- `docs/question-bank/` — the question bank brief, the generation
+  prompt template, and the generated do-not-duplicate list
+- `tools/validate-bank.py` — the question bank validator
+- `AGENTS.md` — read-first orientation for agents working in this repo
 
 ## Development
 
@@ -95,13 +113,35 @@ jobs, 2026-10-25):
    `registry.register(manifest, server, { clientRoot, isDefault: true })`,
    invoked from API server and worker startup, alongside the
    `install-bundled-games` entry and the web bundle input for
-   `games/trivia/0.1.0/client`. The starter bank is imported through
+   `games/trivia/0.2.0/client`. The starter bank is imported through
    **Admin → Trivia library**; no bank is embedded in the browser.
 3. CI and the deployment image build run the fetch step before
    `pnpm install` / the Docker build.
 
 The core repository intentionally carries no Trivia code; deployments
 that don't want the game simply never bundle it.
+
+## Question bank
+
+The production question pool lives at `content/bank.json` (format
+`next-round.trivia/2`, CC0-1.0) and currently holds **50 questions**
+toward a launch floor of **300** — the floor is a minimum, not a cap:
+the pool is an open pool that keeps growing as reviewed contributions
+land, and matches draw from however much reviewed depth exists.
+
+Every question belongs to one of ten categories — Geography, History,
+Science & Nature, Technology, Arts & Literature, Pop Culture,
+Sports & Games, Food & Drink, Language & Words, World & Everyday
+Life — and carries a difficulty of 1–3.
+
+To contribute: read `AGENTS.md`, then the brief at
+`docs/question-bank/BRIEF.md`. Contributions arrive as one file per
+set in `content/contributions/`, pass `tools/validate-bank.py`, and
+are merged into the pool only after a full review (fact-check,
+answer-key verification, dedupe). Who contributed what, and what
+review found, is recorded in `content/LEDGER.md`. Operators handing
+the work to an agent can use the copy-paste assignment in
+`docs/question-bank/GENERATION-PROMPT.md`.
 
 ## License
 

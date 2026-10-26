@@ -4,6 +4,7 @@ import {
   type GameManifest,
   type Schema,
 } from "@next-round/contracts";
+import { TRIVIA_CATEGORY_CODES } from "./types.js";
 
 function object(properties: Record<string, Schema>): Schema {
   return {
@@ -36,13 +37,42 @@ const choices: Schema = {
   maxItems: 8,
   uniqueItems: true,
 };
-const publicQuestion = object({ id: text(80), prompt: text(1000), choices });
+const category: Schema = { type: "string", enum: [...TRIVIA_CATEGORY_CODES] };
+const difficulty: Schema = { type: "integer", minimum: 1, maximum: 3 };
+/** Public question projection. Category and difficulty are optional
+ * properties: they are projected only for format /2 banks, so views of
+ * /1 banks are exactly what they were in 0.1.0. */
+const publicQuestion: Schema = {
+  type: "object",
+  properties: {
+    id: text(80),
+    prompt: text(1000),
+    choices,
+    category: {
+      anyOf: [category, { type: "null" }],
+    },
+    difficulty: {
+      anyOf: [difficulty, { type: "null" }],
+    },
+  },
+  required: ["id", "prompt", "choices"],
+  additionalProperties: false,
+};
 const question = object({
   id: text(80),
   prompt: text(1000),
   choices,
   correctChoice: choice,
   explanation: text(2000),
+});
+const questionV2 = object({
+  id: text(80),
+  prompt: text(1000),
+  choices,
+  correctChoice: choice,
+  explanation: text(2000),
+  category,
+  difficulty,
 });
 const reveal = object({
   roundIndex: { type: "integer", minimum: 0, maximum: 19 },
@@ -64,13 +94,24 @@ export const triviaBankSchema: Schema = object({
   questions: { type: "array", items: question, minItems: 1, maxItems: 1000 },
 });
 
+export const triviaBankSchemaV2: Schema = object({
+  format: { const: "next-round.trivia/2", type: "string" },
+  title: text(120),
+  attribution: text(500),
+  license: { const: "CC0-1.0", type: "string" },
+  questions: { type: "array", items: questionV2, minItems: 1, maxItems: 1000 },
+});
+
+/** Banks of either supported format may be imported and pinned. */
+const bankSchema: Schema = { anyOf: [triviaBankSchema, triviaBankSchemaV2] };
+
 export const manifest: GameManifest = {
   id: "trivia",
   name: "Trivia",
-  version: "0.1.0",
+  version: "0.2.0",
   sdk: SDK_IDENTIFIER,
   platformRange: ">=0.1.0 <1.0.0",
-  stateVersion: 1,
+  stateVersion: 2,
   resultVersion: 1,
   description:
     "Simultaneous private answers, timed reveals and shared standings.",
@@ -99,10 +140,19 @@ export const manifest: GameManifest = {
     resources: true,
     careerStats: true,
   },
-  settingsSchema: object({
-    rounds: { type: "integer", minimum: 1, maximum: 20 },
-    secondsPerRound: { type: "integer", minimum: 1, maximum: 300 },
-  }),
+  /** Built explicitly (not via the all-required object() helper) so the
+   * category setting stays optional: clients that send only
+   * {rounds, secondsPerRound} keep working. */
+  settingsSchema: {
+    type: "object",
+    properties: {
+      rounds: { type: "integer", minimum: 1, maximum: 20 },
+      secondsPerRound: { type: "integer", minimum: 1, maximum: 300 },
+      category,
+    },
+    required: ["rounds", "secondsPerRound"],
+    additionalProperties: false,
+  },
   actionSchemas: {
     submit: object({
       roundIndex: { type: "integer", minimum: 0, maximum: 19 },
@@ -123,6 +173,7 @@ export const manifest: GameManifest = {
       minimum: 0,
       maximum: 300000,
     },
+    draw: ids,
   }),
   viewSchema: object({
     phase: { enum: ["lobby", "active", "finished"] },
@@ -145,8 +196,8 @@ export const manifest: GameManifest = {
     attribution: text(500),
   }),
   resourceSchemas: {
-    import: triviaBankSchema,
-    data: triviaBankSchema,
+    import: bankSchema,
+    data: bankSchema,
     facts: object({}),
     metadata: object({
       title: text(120),

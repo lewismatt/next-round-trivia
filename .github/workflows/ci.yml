@@ -19,6 +19,14 @@ jobs:
           cache: pnpm
       - name: Fetch pinned platform packages
         run: ./scripts/fetch-core.sh
+      - name: Validate question bank
+        run: |
+          python3 tools/validate-bank.py content/bank.json
+          for f in content/contributions/*.json; do
+            if [ -e "$f" ]; then
+              python3 tools/validate-bank.py "$f" content/bank.json
+            fi
+          done
       - name: Install
         run: pnpm install --frozen-lockfile
       - name: Build platform packages

@@ -4,7 +4,7 @@ import {
   type GameBridge,
   type GameMountResult,
 } from "@next-round/game-client";
-import type { TriviaView } from "./types.js";
+import { TRIVIA_CATEGORIES, type TriviaView } from "./types.js";
 
 type Intent = {
   roundIndex: number;
@@ -192,6 +192,18 @@ export function mount(
     countdown.className = "hint";
     tick();
     if (game.question) {
+      if (game.question.category) {
+        const difficulty = game.question.difficulty;
+        add(
+          root,
+          "p",
+          `${TRIVIA_CATEGORIES[game.question.category]}${
+            difficulty
+              ? ` · Difficulty ${difficulty} ${"●".repeat(difficulty)}${"○".repeat(3 - difficulty)}`
+              : ""
+          }`,
+        ).className = "hint";
+      }
       add(root, "h3", game.question.prompt);
       const fields = add(root, "fieldset");
       add(fields, "legend", "Choose your private answer");

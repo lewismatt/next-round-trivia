@@ -8,12 +8,22 @@ import {
   type TransitionResult,
 } from "@next-round/game-sdk";
 import { parseTriviaImport } from "./content.js";
-import type {
-  TriviaBank,
-  TriviaSettings,
-  TriviaState,
-  TriviaView,
+import {
+  TRIVIA_CATEGORY_CODES,
+  type TriviaBank,
+  type TriviaQuestion,
+  type TriviaQuestionV2,
+  type TriviaSettings,
+  type TriviaState,
+  type TriviaView,
 } from "./types.js";
+
+/** The question viewed as a /2 question, or undefined for /1 questions. */
+function categorized(q: TriviaQuestion): TriviaQuestionV2 | undefined {
+  return (q as Partial<TriviaQuestionV2>).category === undefined
+    ? undefined
+    : (q as TriviaQuestionV2);
+}
 
 const enabled = (ctx: RuleContext) =>
   ctx.members.filter((m) => m.status === "active" && !m.disabled);
@@ -24,6 +34,56 @@ const failure = (
   code: string,
   message: string,
 ): TransitionResult<TriviaState> => ({ ok: false, error: { code, message } });
+
+/** Questions a match may draw from: the whole bank, or only the subset in
+ * the category named by the match settings. A /1 bank has no categorized
+ * questions, so a category setting leaves an empty pool there. */
+function eligibleQuestions(
+  content: TriviaBank,
+  s: TriviaSettings,
+): TriviaQuestion[] {
+  if (s.category === undefined) return content.questions;
+  return content.questions.filter(
+    (q) => categorized(q)?.category === s.category,
+  );
+}
+
+/** Deterministic draw. The entropy source is the server-provided create
+ * event id combined with the match id (the Cipher pattern); neither is
+ * projected into a client view. The shuffled order is computed once, at
+ * match start, and stored in state — later transitions only read it. */
+function drawOrder(ctx: RuleContext, pool: TriviaQuestion[]): string[] {
+  let h = 2166136261;
+  const seedText = `${ctx.matchId}:${ctx.eventId}`;
+  for (let i = 0; i < seedText.length; i++) {
+    h ^= seedText.charCodeAt(i);
+    h = Math.imul(h, 16777619);
+  }
+  let seed = h >>> 0;
+  const rand = () => {
+    seed = (seed + 0x6d2b79f5) | 0;
+    let t = Math.imul(seed ^ (seed >>> 15), 1 | seed);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+  const order = pool.map((q) => q.id);
+  for (let i = order.length - 1; i > 0; i--) {
+    const j = Math.floor(rand() * (i + 1));
+    [order[i], order[j]] = [order[j], order[i]];
+  }
+  return order;
+}
+
+/** The question in play for the current round, via the stored draw. */
+function drawnQuestion(
+  ctx: RuleContext,
+  state: TriviaState,
+): TriviaQuestion | undefined {
+  const content = bank(ctx);
+  if (!content || state.roundIndex >= state.draw.length) return undefined;
+  const id = state.draw[state.roundIndex];
+  return content.questions.find((q) => q.id === id);
+}
 
 function obligations(ctx: RuleContext, state: TriviaState): string[] {
   if (ctx.phase !== "active" || state.suspended) return [];
@@ -161,17 +221,42 @@ export const server: GameServer<TriviaState, TriviaView> = defineGameServer<
     if (event.kind === "create") {
       const s = settings(ctx);
       const content = bank(ctx);
-      if (!content || content.format !== "next-round.trivia/1")
+      if (
+        !content ||
+        (content.format !== "next-round.trivia/1" &&
+          content.format !== "next-round.trivia/2")
+      )
         return failure("RESOURCE_REQUIRED", "Choose a trivia question bank.");
+      if (
+        s?.category !== undefined &&
+        !(TRIVIA_CATEGORY_CODES as readonly string[]).includes(s.category)
+      ) {
+        return failure(
+          "INVALID_SETTINGS",
+          "Choose a known trivia category, or leave the category unset for a mixed match.",
+        );
+      }
       if (
         !s ||
         !Number.isInteger(s.rounds) ||
         s.rounds < 1 ||
-        s.rounds > Math.min(20, content.questions.length) ||
         !Number.isInteger(s.secondsPerRound) ||
         s.secondsPerRound < 1 ||
         s.secondsPerRound > 300
       ) {
+        return failure(
+          "INVALID_SETTINGS",
+          "Choose available rounds and a round duration from 1 to 300 seconds.",
+        );
+      }
+      const eligible = eligibleQuestions(content, s);
+      if (s.rounds > Math.min(20, eligible.length)) {
+        if (s.category !== undefined) {
+          return failure(
+            "NOT_ENOUGH_QUESTIONS",
+            `The chosen bank has ${eligible.length} question(s) in that category; reduce the rounds or choose another category.`,
+          );
+        }
         return failure(
           "INVALID_SETTINGS",
           "Choose available rounds and a round duration from 1 to 300 seconds.",
@@ -189,6 +274,7 @@ export const server: GameServer<TriviaState, TriviaView> = defineGameServer<
           dueAt: null,
           suspended: false,
           suspendedRemainingMs: null,
+          draw: [],
         },
         "lobby",
       );
@@ -232,12 +318,22 @@ export const server: GameServer<TriviaState, TriviaView> = defineGameServer<
           "CANNOT_START",
           "The host needs enough enabled players to start.",
         );
+      const content = bank(ctx);
+      const s = settings(ctx);
+      const pool = content ? eligibleQuestions(content, s) : [];
+      if (!content || pool.length < s.rounds) {
+        return failure(
+          "NOT_ENOUGH_QUESTIONS",
+          "The chosen bank does not have enough eligible questions for this match.",
+        );
+      }
       return transition(
         ctx,
         {
           ...state,
           roundMemberIds: enabled(ctx).map((m) => m.id),
           generation: 1,
+          draw: drawOrder(ctx, pool),
           dueAt: new Date(
             Date.parse(ctx.now) + settings(ctx).secondsPerRound * 1000,
           ).toISOString(),
@@ -287,7 +383,9 @@ export const server: GameServer<TriviaState, TriviaView> = defineGameServer<
         );
       if (Date.parse(ctx.now) >= Date.parse(state.dueAt!))
         return failure("ROUND_CLOSED", "The round deadline has passed.");
-      const q = bank(ctx)!.questions[state.roundIndex];
+      const q = drawnQuestion(ctx, state);
+      if (!q)
+        return failure("INVALID_STATE", "The match has no question in play.");
       if (
         !Number.isInteger(payload.choice) ||
         payload.choice! < 0 ||
@@ -315,7 +413,9 @@ export const server: GameServer<TriviaState, TriviaView> = defineGameServer<
           "The deadline is not active or due.",
         );
       }
-      const q = bank(ctx)!.questions[state.roundIndex];
+      const q = drawnQuestion(ctx, state);
+      if (!q)
+        return failure("INVALID_STATE", "The match has no question in play.");
       const scores = { ...state.scores };
       for (const [id, answer] of Object.entries(state.answers))
         if (answer === q.correctChoice) scores[id] = (scores[id] ?? 0) + 1;
@@ -350,15 +450,21 @@ export const server: GameServer<TriviaState, TriviaView> = defineGameServer<
   },
   view(ctx, state, viewer) {
     const q =
-      ctx.phase === "active"
-        ? bank(ctx)?.questions[state.roundIndex]
-        : undefined;
+      ctx.phase === "active" ? drawnQuestion(ctx, state) : undefined;
+    const cq = q ? categorized(q) : undefined;
     return {
       phase: ctx.phase ?? "lobby",
       roundIndex: state.roundIndex,
       totalRounds: settings(ctx).rounds,
       question: q
-        ? { id: q.id, prompt: q.prompt, choices: [...q.choices] }
+        ? {
+            id: q.id,
+            prompt: q.prompt,
+            choices: [...q.choices],
+            ...(cq
+              ? { category: cq.category, difficulty: cq.difficulty }
+              : {}),
+          }
         : null,
       myMemberId: viewer.memberId,
       myChoice: viewer.memberId
